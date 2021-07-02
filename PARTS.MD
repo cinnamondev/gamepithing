@@ -3,9 +3,9 @@
 |Part               |Model              |Count     |Link      |(My supplier)      |Comment                          |Cost      |
 |-------------------|-------------------|----------|----------|-------------------|---------------------------------|----------|
 |PCB                | N/A               | 1        | N/A      | N/A               | probably jlcpcb they seem nice  | N/A      |
-|Casing             | GBASP             | 1        | -        | (eBay)[https://www.ebay.co.uk/itm/274828716016?hash=item3ffd1167f0:g:0NMAAOSwgR9gwiny] | bought from ebay for time saving | £13.99 |
-|Primary buttons    | SKRRACE010        | 10 (6 USED) | (Alpsalpine)[https://tech.alpsalpine.com/prod/e/html/tact/surfacemount/skrr/skrr_list.html] | (RS Components UK)[https://uk.rs-online.com/web/p/tactile-switches/9174068] | seem good | £0.478 (£4.78 total for all 10) |
-| Shoulder buttons  | 431256038716      | 2        | -        | (RS Components UK)[https://uk.rs-online.com/web/p/tactile-switches/7856399] | not sure on this one - change later maybe | £1.04 (£2.08 total) |
+|Casing             | GBASP             | 1        | -        | [eBay](https://www.ebay.co.uk/itm/274828716016?hash=item3ffd1167f0:g:0NMAAOSwgR9gwiny) | bought from ebay for time saving | £13.99 |
+|Primary buttons    | SKRRACE010        | 10 (6 USED) | [Alpsalpine](https://tech.alpsalpine.com/prod/e/html/tact/surfacemount/skrr/skrr_list.html) | [RS Components UK](https://uk.rs-online.com/web/p/tactile-switches/9174068) | seem good | £0.478 (£4.78 total for all 10) |
+| Shoulder buttons  | 431256038716      | 2        | -        | [RS Components UK](https://uk.rs-online.com/web/p/tactile-switches/7856399) | not sure on this one - change later maybe | £1.04 (£2.08 total) |
 | Secondary buttons | N/A               | 3 min    | -        | -                 | not sure | N//A |
 | rotary encoder    | N/A               | 1        | -        | -                 | needs further research | N/A |
 | speaker (maybe)   | N/A               | -        | -        | -                 | might just leave open output | N/A |
