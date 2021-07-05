@@ -1,0 +1,57 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Texas Instruments SN74HC14N
+#
+DEF SN74HC14N U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "SN74HC14N" 0 300 50 H V L CNN 
+F2 "Texas_Instruments-R_R-PDIP-T14-0-0-*" 0 400 50 H I L CNN 
+F3 "http://www.ti.com/lit/ds/symlink/sn74hc14.pdf" 0 500 50 H I L CNN 
+F4 "http://www.ti.com/" 0 600 50 H I L CNN "Manufacturer Link"
+F5 "IC" 0 700 50 H I L CNN "category"
+F6 "Logic Gates, Single" 0 800 50 H I L CNN "category 1a2bd7212bffc1ec"
+F7 "Semiconductors and Actives" 0 900 50 H I L CNN "category 9e07530daf1645c0"
+F8 "Logic, Standard" 0 1000 50 H I L CNN "category 9e37533dafe045f0"
+F9 "Buffer Gates" 0 1100 50 H I L CNN "category c6e50beff7391d22"
+F10 "Inverter IC 6 Channel Schmitt Trigger 14-PDIP" 0 1200 50 H I L CNN "digikey description"
+F11 "296-1577-5-ND" 0 1300 50 H I L CNN "digikey part number"
+F12 "DIP; 14 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm" 0 1400 50 H I L CNN "footprint 0 description"
+F13 "DIP794W46P254L1930H508Q14" 0 1500 50 H I L CNN "ipc land pattern name"
+F14 "yes" 0 1600 50 H I L CNN "lead free"
+F15 "b43e3c86725c9df6" 0 1700 50 H I L CNN "library id"
+F16 "Texas Instruments" 0 1800 50 H I L CNN "manufacturer"
+F17 "595-SN74HC14N" 0 1900 50 H I L CNN "mouser part number"
+F18 "db30123b6a3504f7" 0 2000 50 H I L CNN "octopart part number"
+F19 "PDIP-14" 0 2100 50 H I L CNN "package"
+F20 "yes" 0 2200 50 H I L CNN "rohs"
+F21 "+85°C" 0 2300 50 H I L CNN "temperature range high"
+F22 "-40°C" 0 2400 50 H I L CNN "temperature range low"
+F23 "6.0V" 0 2500 50 H I L CNN "max supply voltage dc"
+F24 "2.0V" 0 2600 50 H I L CNN "min supply voltage dc"
+F25 "through hole" 0 2700 50 H I L CNN "mounting style"
+F26 "0.0052A" 0 2800 50 H I L CNN "output current"
+F27 "-0.001A" 0 2900 50 H I L CNN "output current drive"
+F28 "2.6e-08s" 0 3000 50 H I L CNN "propagation delay max"
+F29 "No SVHC" 0 3100 50 H I L CNN "reach svhc compliance"
+F30 "6.0V" 0 3200 50 H I L CNN "voltage nodes"
+DRAW
+X VCC 14 100 0 100 R 40 40 1 1 U 
+X 1A 1 100 -200 100 R 40 40 1 1 U 
+X 1Y 2 1000 0 100 L 40 40 1 1 U 
+X 2A 3 100 -300 100 R 40 40 1 1 U 
+X 2Y 4 1000 -100 100 L 40 40 1 1 U 
+X 3A 5 100 -400 100 R 40 40 1 1 U 
+X 3Y 6 1000 -200 100 L 40 40 1 1 U 
+X 4A 9 100 -500 100 R 40 40 1 1 U 
+X 4Y 8 1000 -300 100 L 40 40 1 1 U 
+X 5A 11 100 -600 100 R 40 40 1 1 U 
+X 5Y 10 1000 -400 100 L 40 40 1 1 U 
+X 6A 13 100 -700 100 R 40 40 1 1 U 
+X 6Y 12 1000 -500 100 L 40 40 1 1 U 
+X GND 7 1000 -700 100 L 40 40 1 1 U 
+S 200 100 900 -800 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

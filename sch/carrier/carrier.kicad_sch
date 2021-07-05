@@ -1,0 +1,153 @@
+(kicad_sch (version 20210621) (generator eeschema)
+
+  (uuid fdc2a62a-f4fd-4a89-b3d7-99c1f15b46f7)
+
+  (paper "A4")
+
+  (title_block
+    (title "CM4 Gameboy Main Sheet")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 120.65 31.75) (size 44.45 58.42) (fields_autoplaced)
+    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 19c5e008-dc4a-4080-a2ed-5cdad03792a4)
+    (property "Sheet name" "CM4" (id 0) (at 120.65 31.1143 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "CM4.kicad_sch" (id 1) (at 120.65 90.6787 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 213.995 115.57) (size 35.56 24.13) (fields_autoplaced)
+    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8d0ae364-2b30-4b7c-813a-81b59cbe3cd0)
+    (property "Sheet name" "PWR" (id 0) (at 213.995 114.9343 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "power.kicad_sch" (id 1) (at 213.995 140.2087 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 34.29 31.75) (size 36.195 38.735) (fields_autoplaced)
+    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 59fee1d9-7f44-408e-bd4e-36f39b8a6086)
+    (property "Sheet name" "gamepad" (id 0) (at 34.29 31.1143 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "gamepad.kicad_sch" (id 1) (at 34.29 70.9937 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4" (page "2"))
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086" (page "3"))
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0" (page "4"))
+  )
+
+  (symbol_instances
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/9c3f3a39-e1bc-4848-88e0-c229a008bf5d"
+      (reference "#PWR0101") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/21e52013-c61c-4fa9-a81e-68ab2f08a085"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/1936965c-2b54-49d8-a2df-d4f0c18e6d65"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/ab73d756-e308-4ad8-a338-e38a3096caad"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/c5f098f1-5299-44ff-925c-f4651713154b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/c8a711c2-5c9c-43c5-8861-afaf43eb0347"
+      (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0504_1310Metric_Pad0.83x1.28mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/5e486025-ea08-4bc3-b7f3-067d54dcb929"
+      (reference "C2") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0504_1310Metric_Pad0.83x1.28mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/78e7c9f0-a863-47cf-8941-0fd606ff0d68"
+      (reference "C3") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0504_1310Metric_Pad0.83x1.28mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/b8894eaa-cc10-4399-93b4-5ded8bb0e091"
+      (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0504_1310Metric_Pad0.83x1.28mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/06c6d64e-31d9-4071-8ac9-e0694c20a39f"
+      (reference "C5") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0504_1310Metric_Pad0.83x1.28mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/39a11094-3e02-4112-b251-2867c85c460f"
+      (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0504_1310Metric_Pad0.83x1.28mm_HandSolder")
+    )
+    (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/635272e6-5752-4f50-9def-32aae94582a5"
+      (reference "Module1") (unit 2) (value "ComputeModule4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/d38f75a1-b8db-4168-9a94-afda41263ee2"
+      (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/4700e32f-90e9-4204-944f-f7a95eb712fc"
+      (reference "R2") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/e1e68019-fbc6-4495-a3c7-eeedf16f5893"
+      (reference "R3") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/6666442e-b17c-4f1a-94c0-2ad0a74a108c"
+      (reference "R4") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/8b0797ba-7763-4003-992e-7ab8ab3e8f59"
+      (reference "R5") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/fe4c35b1-a02e-49b1-8083-c35264e9aa0d"
+      (reference "R6") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/a710b929-dc13-4c96-b4ed-828ad80ed87a"
+      (reference "R7") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/620e6fa2-b072-49cd-9e37-59a961caa9ba"
+      (reference "R8") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/0c11f7b7-7a0b-472c-9fe2-2a9c31c987f0"
+      (reference "R9") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/33cb8eef-086c-4ab3-a0f1-f64ec6434df9"
+      (reference "R10") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/6bae7c0e-09d7-4fd4-8023-8f5c451634e5"
+      (reference "R11") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/29e9c665-9e31-4fd2-ae26-0b7b4edfaa90"
+      (reference "R12") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/56f68401-24a6-45fd-817b-cb90bd2ccdea"
+      (reference "SW1") (unit 1) (value "SKRRACE010") (footprint "ALPS-SKRRACE010-0-0-*")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/96635cf0-eb2f-4090-9b5d-4a47cd26eaf0"
+      (reference "SW2") (unit 1) (value "SKRRACE010") (footprint "ALPS-SKRRACE010-0-0-*")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/e4c9f8c9-be49-4630-ba95-bb01abc37975"
+      (reference "SW3") (unit 1) (value "SKRRACE010") (footprint "ALPS-SKRRACE010-0-0-*")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/9a09baac-e921-46b5-947e-64e9115e3f96"
+      (reference "SW4") (unit 1) (value "SKRRACE010") (footprint "ALPS-SKRRACE010-0-0-*")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/6207c949-661f-414d-a112-eebd0c10d6c1"
+      (reference "SW5") (unit 1) (value "SKRRACE010") (footprint "ALPS-SKRRACE010-0-0-*")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/24071050-7d3e-450b-83ca-318dc9d4dcf6"
+      (reference "SW6") (unit 1) (value "SKRRACE010") (footprint "ALPS-SKRRACE010-0-0-*")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/e5ea8ed9-1334-45da-8719-957e7da56073"
+      (reference "U?") (unit 1) (value "SN74HC14N") (footprint "Texas_Instruments-R_R-PDIP-T14-0-0-*")
+    )
+  )
+)

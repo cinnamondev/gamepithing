@@ -1,0 +1,25 @@
+(kicad_sch (version 20210621) (generator eeschema)
+
+  (uuid fa52e9ab-48e2-45fa-8315-23136c69fe3d)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (global_label "3.3v" (shape output) (at 69.85 69.85 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 26723e19-60bb-4809-9399-b79aad44aaad)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 76.2545 69.7706 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "5v" (shape output) (at 144.145 72.39 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f2d304fe-1d98-43fc-8356-4bef84f5ba87)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 148.7352 72.3106 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+)

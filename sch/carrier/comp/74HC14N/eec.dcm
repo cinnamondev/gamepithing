@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74HC14N
+D SN74HC14N
+F http://www.ti.com/lit/ds/symlink/sn74hc14.pdf
+$ENDCMP
+# end doc library
