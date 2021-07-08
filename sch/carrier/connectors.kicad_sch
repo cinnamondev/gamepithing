@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Port data connectors")
+  )
+
   (lib_symbols
     (symbol "CM4IO:ComputeModule4-CM4" (in_bom yes) (on_board yes)
       (property "Reference" "Module" (id 0) (at 113.03 -68.58 0)
