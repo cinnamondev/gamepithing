@@ -1,12 +1,17 @@
 # gamepithing
 game pi thing
 
+PCB carrier for a Compute Module 4 - designed for a Gameboy Advance SP shell.
+Has an attached board for a SPI based TFT display - [this one](https://www.buydisplay.com/serial-spi-3-2-inch-tft-lcd-module-display-ili9341-power-than-sainsmart)
 
+Has 2x USB C (1x USB2 for debug and peripherals, 1x 5V 3A power)
 
+## TODO
 
-Board should have USB type C for USB2 OTG and another for C power. C power should charge battery.
+- Battery charging circuit
+- probably something else im forgetting
+- clean up and actually making the pcb.
 
-
-May need to use the PCIE for some function inside but i hope not - if we can use the MIPI GBASP IPS upgrade mod display thats already proven, itll make our life easier - just need to design an adaptor board or try to design a fpc thingy for it? - if we cant do that we will lose much of our GPIO to DPI alt mode and thats not good :(
+## Parts list & costs
 
 [parts list](PARTS.MD)
