@@ -2,4 +2,5 @@
   (lib (name "eec")(type "KiCad")(uri "${KIPRJMOD}/comp/EEC/eec.pretty")(options "")(descr ""))
   (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/comp/CM4/CM4IO.pretty")(options "")(descr ""))
   (lib (name "TI74HC14N")(type "KiCad")(uri "${KIPRJMOD}/comp/74HC14N/eec.pretty")(options "")(descr ""))
+  (lib (name "MOLEXC")(type "KiCad")(uri "${KIPRJMOD}/comp/MOLEXTYPEC/eec.pretty")(options "")(descr ""))
 )
