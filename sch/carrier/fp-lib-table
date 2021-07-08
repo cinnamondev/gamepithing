@@ -3,4 +3,6 @@
   (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/comp/CM4/CM4IO.pretty")(options "")(descr ""))
   (lib (name "TI74HC14N")(type "KiCad")(uri "${KIPRJMOD}/comp/74HC14N/eec.pretty")(options "")(descr ""))
   (lib (name "MOLEXC")(type "KiCad")(uri "${KIPRJMOD}/comp/MOLEXTYPEC/eec.pretty")(options "")(descr ""))
+  (lib (name "MOLEXZIF")(type "KiCad")(uri "${KIPRJMOD}/comp/MOLEXZIF/eec.pretty")(options "")(descr ""))
+  (lib (name "ER-CON40HT-1")(type "KiCad")(uri "${KIPRJMOD}/comp/ER-CON40HT-1/")(options "")(descr ""))
 )

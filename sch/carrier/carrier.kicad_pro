@@ -419,7 +419,7 @@
     ],
     [
       "59fee1d9-7f44-408e-bd4e-36f39b8a6086",
-      "gamepad"
+      "Buttons"
     ],
     [
       "8d0ae364-2b30-4b7c-813a-81b59cbe3cd0",
@@ -428,6 +428,10 @@
     [
       "7d2c72bb-6811-42b4-a3fa-d7ba2c227aca",
       "connectors"
+    ],
+    [
+      "95ef1699-d890-4da8-941a-b0ab341c2e25",
+      "display board"
     ]
   ],
   "text_variables": {}
