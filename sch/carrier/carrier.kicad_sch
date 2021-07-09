@@ -194,7 +194,7 @@
     (property "Sheet file" "power.kicad_sch" (id 1) (at 120.65 119.2537 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "5v" input (at 152.4 95.25 90)
+    (pin "5v" output (at 152.4 95.25 90)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid d2a5dd04-6eeb-4f0c-90a1-d0c16c2af867)
     )
@@ -285,6 +285,9 @@
     (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/0ca2c35d-9ad6-4cc0-888d-da7e03e06e0b"
       (reference "#PWR017") (unit 1) (value "GND") (footprint "")
     )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/c4b55b50-ef94-4053-a500-7856df027f7e"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/21e52013-c61c-4fa9-a81e-68ab2f08a085"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
@@ -343,10 +346,10 @@
       (reference "Module0") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/f3edb616-9913-4597-bc50-c7867b516a30"
-      (reference "Q1") (unit 1) (value "BC557") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (reference "Q1") (unit 1) (value "BC557") (footprint "Package_TO_SOT_THT:TO-92_Inline_Horizontal1")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/a60f29ed-6aaf-4f6e-89b0-d3c088f4d967"
-      (reference "Q2") (unit 1) (value "BC557") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (reference "Q2") (unit 1) (value "BC557") (footprint "Package_TO_SOT_THT:TO-92_Inline_Horizontal1")
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/d38f75a1-b8db-4168-9a94-afda41263ee2"
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -402,6 +405,9 @@
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/8d2c38c4-d34e-4b4b-869f-a738c22f3470"
       (reference "R18") (unit 1) (value "6.2k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
+    (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/34d10f0c-d7a0-40ac-b2ff-3f7f933d25b8"
+      (reference "R19") (unit 1) (value "33") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/56f68401-24a6-45fd-817b-cb90bd2ccdea"
       (reference "SW1") (unit 1) (value "SKRRACE010") (footprint "eec:ALPS-SKRRACE010-0-0-MFG")
     )
@@ -425,6 +431,24 @@
     )
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/efa67138-796f-4af2-8eb8-b0923e4585cc"
       (reference "TP2") (unit 1) (value "Activity") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/fed6ec27-3f0f-4410-b670-7e022193596a"
+      (reference "TP6") (unit 1) (value "UP") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/bcf5c445-f538-446b-952a-580338cde548"
+      (reference "TP7") (unit 1) (value "DOWN") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/0f1969c3-9e42-42a5-b4ae-4bb8fbdbbbdb"
+      (reference "TP8") (unit 1) (value "LEFT") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/78e5283d-940c-4810-83f1-d3b6b4f50058"
+      (reference "TP9") (unit 1) (value "RIGHT") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/037e8592-f1ec-4554-8673-88100afd2616"
+      (reference "TP10") (unit 1) (value "A") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+    )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/57bd1f6a-9f88-4ef6-a2a5-b049bb1b3095"
+      (reference "TP11") (unit 1) (value "B") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/e5ea8ed9-1334-45da-8719-957e7da56073"
       (reference "U1") (unit 1) (value "SN74HC14N") (footprint "TI74HC14N:Texas_Instruments-R_R-PDIP-T14-0-0-0")
