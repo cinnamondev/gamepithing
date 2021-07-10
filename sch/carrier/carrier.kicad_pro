@@ -432,6 +432,10 @@
     [
       "95ef1699-d890-4da8-941a-b0ab341c2e25",
       "display board"
+    ],
+    [
+      "37d166c5-a261-4942-8dd2-7ed8073b2036",
+      "MC CTRL"
     ]
   ],
   "text_variables": {}

@@ -52,18 +52,19 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid a3464733-1fbf-40ef-ae0e-d9d873eecd32)
   )
-  (wire (pts (xy 152.4 90.805) (xy 152.4 95.25))
+  (wire (pts (xy 116.205 99.695) (xy 120.65 99.695))
     (stroke (width 0) (type solid) (color 0 0 0 0))
-    (uuid 8f3a0407-6272-49fd-af7c-f42920193f07)
+    (uuid d46f07f0-461b-478f-a9d1-215dd785359c)
   )
 
-  (text "connectors:\n\n- USB C 5V3A" (at 136.525 102.235 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 8b65ff46-9ca7-4f7f-8a82-e1864bce5cd9)
-  )
   (text "connectors:\n\n\n- SD CARD\n- SPI DISPLAY" (at 149.86 49.53 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid dcd5945f-30ec-4394-9aaa-4c90f6af8011)
+  )
+  (text "connectors:\n\n- USB C 5V3A\n- I2C (Battery monitor)\n"
+    (at 155.575 106.68 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 8b65ff46-9ca7-4f7f-8a82-e1864bce5cd9)
   )
   (text "connectors:\n\n- USB C 2.0\n- MicroHDMI output" (at 205.74 52.07 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -91,8 +92,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2c5a1b67-d884-4a66-8418-d3562e207442)
   )
-  (label "+5v" (at 152.4 90.805 270)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (label "+5v" (at 116.205 99.695 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 89db0656-58c5-446d-bde2-cf90d77e329a)
   )
 
@@ -184,18 +185,30 @@
     )
   )
 
-  (sheet (at 120.65 95.25) (size 44.45 23.495) (fields_autoplaced)
+  (sheet (at 120.015 121.285) (size 21.59 24.13) (fields_autoplaced)
+    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 37d166c5-a261-4942-8dd2-7ed8073b2036)
+    (property "Sheet name" "MC CTRL" (id 0) (at 120.015 120.6493 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "stmcontrol.kicad_sch" (id 1) (at 120.015 145.9237 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 120.65 92.71) (size 44.45 25.4) (fields_autoplaced)
     (stroke (width 0.0006) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 8d0ae364-2b30-4b7c-813a-81b59cbe3cd0)
-    (property "Sheet name" "PWR - BATT" (id 0) (at 120.65 94.6143 0)
+    (property "Sheet name" "PWR - BATT" (id 0) (at 120.65 92.0743 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "power.kicad_sch" (id 1) (at 120.65 119.2537 0)
+    (property "Sheet file" "power.kicad_sch" (id 1) (at 120.65 118.6187 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "5v" output (at 152.4 95.25 90)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (pin "5v" output (at 120.65 99.695 180)
+      (effects (font (size 1.27 1.27)) (justify left))
       (uuid d2a5dd04-6eeb-4f0c-90a1-d0c16c2af867)
     )
   )
@@ -231,6 +244,7 @@
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0" (page "4"))
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca" (page "5"))
     (path "/95ef1699-d890-4da8-941a-b0ab341c2e25" (page "6"))
+    (path "/37d166c5-a261-4942-8dd2-7ed8073b2036" (page "7"))
   )
 
   (symbol_instances
@@ -294,6 +308,18 @@
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/1936965c-2b54-49d8-a2df-d4f0c18e6d65"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/15f8c83f-f558-4d91-b21e-dedfc95b0ef1"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/5bfba063-c27c-4ad2-a349-7596cda6ed94"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/a54628e7-a201-4869-8d21-5c051c131cb9"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/f746f4ac-5167-4c11-a4b6-cae66c382ef2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/c8a711c2-5c9c-43c5-8861-afaf43eb0347"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0504_1310Metric_Pad0.83x1.28mm_HandSolder")
     )
@@ -311,6 +337,15 @@
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/39a11094-3e02-4112-b251-2867c85c460f"
       (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0504_1310Metric_Pad0.83x1.28mm_HandSolder")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/5712a26c-4e20-4598-9603-00bc21850deb"
+      (reference "C?") (unit 1) (value "4.7uF") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/92ce5654-2617-48f1-ab71-3c0026809dcf"
+      (reference "C?") (unit 1) (value "10uF") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/b5edea3c-fe64-45a3-aaef-f5c9c459ef4d"
+      (reference "C?") (unit 1) (value "4.7uF") (footprint "")
     )
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/86f057dd-5f37-4747-a676-a365d3666b91"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
@@ -408,6 +443,12 @@
     (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/34d10f0c-d7a0-40ac-b2ff-3f7f933d25b8"
       (reference "R19") (unit 1) (value "33") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/0de21fe4-a194-4d18-8007-d032bf68d967"
+      (reference "R?") (unit 1) (value "110k") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/3f542c1c-13cd-438b-adcb-067253eda52c"
+      (reference "R?") (unit 1) (value "290k") (footprint "")
+    )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/56f68401-24a6-45fd-817b-cb90bd2ccdea"
       (reference "SW1") (unit 1) (value "SKRRACE010") (footprint "eec:ALPS-SKRRACE010-0-0-MFG")
     )
@@ -455,6 +496,18 @@
     )
     (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/c3ae980c-e328-42d4-aab1-9386e5a9d44a"
       (reference "U2") (unit 1) (value "ER-CON40HT-1") (footprint "ER-CON40HT-1:ER-CON40HT-1")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/57363998-be2d-4134-a962-796752eabb1f"
+      (reference "U?") (unit 1) (value "DS2745U") (footprint "Package_SO:TSSOP-8_3x3mm_P0.65mm")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/72917145-318a-4003-abfb-3da619c5be0c"
+      (reference "U?") (unit 1) (value "MCP73871-2CC") (footprint "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/a2dbcced-6947-4f3c-9ba0-a2d86c544a87"
+      (reference "U?") (unit 1) (value "MT3608") (footprint "Package_TO_SOT_SMD:SOT-23-6")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/e67b34e9-4f9f-491f-a798-748ff91c7572"
+      (reference "U?") (unit 1) (value "TPS61230DRC") (footprint "Package_SON:Texas_S-PVSON-N10_ThermalVias")
     )
   )
 )

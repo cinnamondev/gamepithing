@@ -1,0 +1,14 @@
+(kicad_sch (version 20210621) (generator eeschema)
+
+  (uuid fa52e9ab-48e2-45fa-8315-23136c69fe3d)
+
+  (paper "A4")
+
+  (title_block
+    (title "STM32 control subsystem")
+  )
+
+  (lib_symbols
+  )
+
+)
