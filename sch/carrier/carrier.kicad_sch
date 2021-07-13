@@ -462,7 +462,7 @@
       (reference "R21") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/52e1ac2b-f637-4ee6-ad9e-d6394f0a5b2a"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+      (reference "R?") (unit 1) (value "2.07k") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/59cc0101-8ea4-4522-a755-2a91692f9a23"
       (reference "R?") (unit 1) (value "R") (footprint "")
@@ -471,7 +471,7 @@
       (reference "R?") (unit 1) (value "R") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/8c85b80f-a97c-427e-b4ed-df089e9fc788"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+      (reference "R?") (unit 1) (value "22.8k") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/be84917c-5a81-471e-b27b-6da64b51da4a"
       (reference "R?") (unit 1) (value "0") (footprint "")
@@ -543,7 +543,7 @@
       (reference "U5") (unit 1) (value "TPS61230DRC") (footprint "Package_SON:Texas_S-PVSON-N10_ThermalVias")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/b8370b7b-24dd-4817-8f47-96a4b17cf459"
-      (reference "U?") (unit 1) (value "MP2617BGL-P") (footprint "")
+      (reference "U?") (unit 1) (value "MP2617BGL-P") (footprint "Package_DFN_QFN:QFN-20-1EP_3x4mm_P0.5mm_EP1.65x2.65mm_ThermalVias")
     )
   )
 )
