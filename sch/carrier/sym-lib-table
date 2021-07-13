@@ -5,4 +5,5 @@
   (lib (name "MOLEXC")(type "KiCad")(uri "${KIPRJMOD}/comp/MOLEXTYPEC/eec.kicad_sym")(options "")(descr ""))
   (lib (name "MOLEXZIF")(type "KiCad")(uri "${KIPRJMOD}/comp/MOLEXZIF/eec.kicad_sym")(options "")(descr ""))
   (lib (name "CON40")(type "KiCad")(uri "${KIPRJMOD}/comp/ER-CON40HT-1/ER-CON40HT-1.kicad_sym")(options "")(descr ""))
+  (lib (name "MP")(type "KiCad")(uri "${KIPRJMOD}/comp/MP2617/MP2617.kicad_sym")(options "")(descr ""))
 )
