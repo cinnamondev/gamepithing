@@ -298,17 +298,11 @@
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/6a73eef6-3fb4-47c2-a675-992a22d3b60d"
       (reference "#PWR011") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/bea243c3-4a38-4950-b7d8-2f1a3e4b103a"
-      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
-    )
     (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/626899ac-e9de-40d0-a036-565b2922e6cf"
       (reference "#PWR016") (unit 1) (value "GND") (footprint "")
     )
     (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/0ca2c35d-9ad6-4cc0-888d-da7e03e06e0b"
       (reference "#PWR017") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/c4b55b50-ef94-4053-a500-7856df027f7e"
-      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/21e52013-c61c-4fa9-a81e-68ab2f08a085"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
@@ -388,9 +382,6 @@
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/86f057dd-5f37-4747-a676-a365d3666b91"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/df44b9fa-176a-47e8-abb2-43f8154bb2f8"
-      (reference "D2") (unit 1) (value "5.1v") (footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal")
-    )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/6fc36982-1b9d-4772-bd31-a97460ef7b5b"
       (reference "D?") (unit 1) (value "LED") (footprint "")
     )
@@ -414,12 +405,6 @@
     )
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/8a3a1801-78b4-4fe5-92b8-af1b67fa3251"
       (reference "Module0") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
-    )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/f3edb616-9913-4597-bc50-c7867b516a30"
-      (reference "Q1") (unit 1) (value "BC557") (footprint "Package_TO_SOT_THT:TO-92_Inline_Horizontal1")
-    )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/a60f29ed-6aaf-4f6e-89b0-d3c088f4d967"
-      (reference "Q2") (unit 1) (value "BC557") (footprint "Package_TO_SOT_THT:TO-92_Inline_Horizontal1")
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/d38f75a1-b8db-4168-9a94-afda41263ee2"
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -459,15 +444,6 @@
     )
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/06e70f63-2271-4617-996d-cb617e89427d"
       (reference "R13") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/0197764b-25ce-494f-979b-ec688b184359"
-      (reference "R16") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/3a035364-789d-4b92-a855-f10703617879"
-      (reference "R17") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/8d2c38c4-d34e-4b4b-869f-a738c22f3470"
-      (reference "R18") (unit 1) (value "6.2k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/34d10f0c-d7a0-40ac-b2ff-3f7f933d25b8"
       (reference "R19") (unit 1) (value "33") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
