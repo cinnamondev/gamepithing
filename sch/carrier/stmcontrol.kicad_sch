@@ -11,4 +11,9 @@
   (lib_symbols
   )
 
+
+  (text "IGNORE THIS SHEET" (at 104.775 99.695 0)
+    (effects (font (size 5.08 5.08)) (justify left bottom))
+    (uuid f4319b2a-f704-4605-bee1-cb177a8b088d)
+  )
 )

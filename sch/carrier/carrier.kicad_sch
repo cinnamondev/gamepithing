@@ -57,6 +57,14 @@
     (uuid d46f07f0-461b-478f-a9d1-215dd785359c)
   )
 
+  (text "TODO: add the Start, Select and Backlight buttons" (at 52.07 27.305 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8b2a4af7-544b-4118-ab3c-861bc4a7743d)
+  )
+  (text "TODO: DPAD CONNECTIONS" (at 132.08 58.42 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e46e23eb-e6b2-47df-a4ee-7eb871b958df)
+  )
   (text "connectors:\n\n\n- SD CARD\n- SPI DISPLAY" (at 149.86 49.53 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid dcd5945f-30ec-4394-9aaa-4c90f6af8011)
@@ -66,9 +74,27 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8b65ff46-9ca7-4f7f-8a82-e1864bce5cd9)
   )
+  (text "TODO: finish power regulating and charger circuit" (at 165.735 98.425 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e0f205ae-b5b0-4175-b87b-9b9d3ec28635)
+  )
+  (text "INCOMPLETE" (at 194.31 59.69 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b4d21cfb-327d-4bad-88bd-e59d091e4bf2)
+  )
+  (text "IGNORE THIS SHEET, in a later revision might a \nlow power microcontroller to the board to manage \nRTC and power\n(software shutdowns, powerup and all that jazz)\n\nThinking could use a STM microcontroller since \nthey are common and ARM architecture"
+    (at 201.93 151.765 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6ff1b17a-1e85-4347-983b-465156d2e452)
+  )
   (text "connectors:\n\n- USB C 2.0\n- MicroHDMI output" (at 205.74 52.07 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 85171747-6585-411b-b4da-81660ff6f9df)
+  )
+  (text "TODO: would like to add more test points to this snap off board\n\nALSO READ:\nhttps://electronics.stackexchange.com/questions/473037/how-to-design-a-snap-breakable-pcb-module"
+    (at 238.76 55.88 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2f6df60a-5b01-485b-94a9-c73f4eb4e4e4)
   )
   (text "Display board is meant to\nbe a little snap off board \nsection for the display section\n"
     (at 251.46 41.275 0)
@@ -185,14 +211,14 @@
     )
   )
 
-  (sheet (at 228.6 109.855) (size 21.59 24.13) (fields_autoplaced)
+  (sheet (at 195.58 134.62) (size 78.105 25.4) (fields_autoplaced)
     (stroke (width 0.0006) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 37d166c5-a261-4942-8dd2-7ed8073b2036)
-    (property "Sheet name" "MC CTRL" (id 0) (at 228.6 109.2193 0)
+    (property "Sheet name" "MC CTRL" (id 0) (at 195.58 133.9843 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "stmcontrol.kicad_sch" (id 1) (at 228.6 134.4937 0)
+    (property "Sheet file" "stmcontrol.kicad_sch" (id 1) (at 195.58 160.5287 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -272,15 +298,6 @@
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/6a73eef6-3fb4-47c2-a675-992a22d3b60d"
       (reference "#PWR011") (unit 1) (value "GND") (footprint "")
     )
-    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/198f85b1-a6e7-47b7-bda8-865046a57c25"
-      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/4998e184-0824-4b6a-be4e-f69e2528077b"
-      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/a1c4e41a-46eb-4794-8ae2-ca6aabd981ab"
-      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
-    )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/bea243c3-4a38-4950-b7d8-2f1a3e4b103a"
       (reference "#PWR015") (unit 1) (value "GND") (footprint "")
     )
@@ -315,6 +332,12 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/98955f99-d556-4585-8af4-3adb47a1c728"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/a2bedf87-66b4-4a7d-b5e9-b18735e357db"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/a643dc7e-7f12-4ab9-97ad-ddf90809fd5e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/b3935348-b1a5-420e-9d18-e0eca142b979"
@@ -374,20 +397,14 @@
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/a095b44f-ab26-4491-93a7-38a5ec31c54d"
       (reference "D?") (unit 1) (value "LED") (footprint "")
     )
-    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/bcda369e-0d1f-467b-b529-0c8b3aebc7eb"
-      (reference "J2") (unit 1) (value "1054500101") (footprint "MOLEXC:Molex-1054500101-MFG")
-    )
-    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/d9e5fe72-be85-4ebf-a36b-a37acb736dd5"
-      (reference "J2") (unit 2) (value "1054500101") (footprint "MOLEXC:Molex-1054500101-MFG")
-    )
-    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/b08623b1-7220-4054-9705-2f5b82adbda5"
-      (reference "J2") (unit 3) (value "1054500101") (footprint "MOLEXC:Molex-1054500101-MFG")
-    )
     (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/c33a5a9a-a1e2-4583-9194-129627feecd2"
       (reference "J3") (unit 1) (value "52271-0879") (footprint "MOLEXZIF:Molex-52271-0879-Manufacturer_Recommended")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/5d6a706c-5304-4933-a9c3-cab3026a2cab"
       (reference "J4") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500")
+    )
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/c46706c8-5a62-4aed-9da5-1e36c5d03bb4"
+      (reference "J?") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/0d624146-b7b3-4af2-b29d-1fdca111d8b1"
       (reference "L?") (unit 1) (value "L") (footprint "")
@@ -461,14 +478,20 @@
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/f4e86627-2abc-4446-99eb-72fa9481b148"
       (reference "R21") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/46c0ac2d-5e98-4f27-ad98-1adff52dcd5b"
+      (reference "R?") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/52e1ac2b-f637-4ee6-ad9e-d6394f0a5b2a"
       (reference "R?") (unit 1) (value "2.07k") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/59cc0101-8ea4-4522-a755-2a91692f9a23"
       (reference "R?") (unit 1) (value "R") (footprint "")
     )
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/6495381a-4705-4c59-8498-189b519f1a1e"
+      (reference "R?") (unit 1) (value "0") (footprint "")
+    )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/6ad4097d-134e-4819-aca4-3b5527493027"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+      (reference "R?") (unit 1) (value "22k") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/8c85b80f-a97c-427e-b4ed-df089e9fc788"
       (reference "R?") (unit 1) (value "22.8k") (footprint "")
@@ -477,7 +500,7 @@
       (reference "R?") (unit 1) (value "0") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/c06915cb-2f97-4bf4-845f-9f09aa8d4e8b"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+      (reference "R?") (unit 1) (value "10k") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/d18a9fd6-9f67-44d6-91a9-0c3622692763"
       (reference "R?") (unit 1) (value "R") (footprint "")
@@ -490,6 +513,9 @@
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/fa2ff2cb-34b9-44fe-95c8-088a49c439fd"
       (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/fe0ad46b-4c8b-4700-b1da-4f49980b2656"
+      (reference "R?") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/56f68401-24a6-45fd-817b-cb90bd2ccdea"
       (reference "SW1") (unit 1) (value "SKRRACE010") (footprint "eec:ALPS-SKRRACE010-0-0-MFG")
