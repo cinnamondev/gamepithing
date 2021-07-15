@@ -1,0 +1,59 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Analog Devices LTC3533EDE#TRPBF
+#
+DEF LTC3533EDETRPBF U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "LTC3533EDE#TRPBF" 0 300 50 H V L CNN 
+F2 "Analog_Devices-DE-14-05-08-1708-0-B-*" 0 400 50 H I L CNN 
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3533fc.pdf" 0 500 50 H I L CNN 
+F4 "No" 0 600 50 H I L CNN "automotive"
+F5 "IC" 0 700 50 H I L CNN "category"
+F6 "Integrated Circuits (ICs)" 0 800 50 H I L CNN "device class L1"
+F7 "Power Management ICs" 0 900 50 H I L CNN "device class L2"
+F8 "Voltage Regulators - Switching" 0 1000 50 H I L CNN "device class L3"
+F9 "IC REG BUCK BST ADJ 2A 14DFN" 0 1100 50 H I L CNN "digikey description"
+F10 "LTC3533EDE#TRPBFCT-ND" 0 1200 50 H I L CNN "digikey part number"
+F11 "0.8mm" 0 1300 50 H I L CNN "height"
+F12 "DFN400X300X75-14" 0 1400 50 H I L CNN "ipc land pattern name"
+F13 "Yes" 0 1500 50 H I L CNN "lead free"
+F14 "8be3000464e30279" 0 1600 50 H I L CNN "library id"
+F15 "Analog Devices" 0 1700 50 H I L CNN "manufacturer"
+F16 "+125°C" 0 1800 50 H I L CNN "max junction temp"
+F17 "5.5V" 0 1900 50 H I L CNN "max supply voltage"
+F18 "1.8V" 0 2000 50 H I L CNN "min supply voltage"
+F19 "584-LTC3533EDE#TRPBF" 0 2100 50 H I L CNN "mouser part number"
+F20 "40-700uA" 0 2200 50 H I L CNN "nominal supply current"
+F21 "1" 0 2300 50 H I L CNN "number of outputs"
+F22 "2A" 0 2400 50 H I L CNN "output current"
+F23 "AdjustableProgrammable" 0 2500 50 H I L CNN "output type"
+F24 "1.8-5.25V" 0 2600 50 H I L CNN "output voltage"
+F25 "DFN14" 0 2700 50 H I L CNN "package"
+F26 "Yes" 0 2800 50 H I L CNN "rohs"
+F27 "0mm" 0 2900 50 H I L CNN "standoff height"
+F28 "300-2000kHz" 0 3000 50 H I L CNN "switching frequency"
+F29 "Buck-Boost" 0 3100 50 H I L CNN "switching topology"
+F30 "+85°C" 0 3200 50 H I L CNN "temperature range high"
+F31 "-40°C" 0 3300 50 H I L CNN "temperature range low"
+DRAW
+X PVIN 11 100 -200 100 R 40 40 1 1 W 
+X VIN 10 100 -300 100 R 40 40 1 1 W 
+X SW1 4 100 0 100 R 40 40 1 1 W 
+X SW2 7 1500 0 100 L 40 40 1 1 W 
+X BURST 2 1500 -900 100 L 40 40 1 1 P 
+X EP 15 1500 -1100 100 L 40 40 1 1 P 
+X FB 13 1500 -500 100 L 40 40 1 1 I 
+X PVOUT 9 1500 -200 100 L 40 40 1 1 W 
+X RT 1 100 -700 100 R 40 40 1 1 P 
+X RUN/SS 12 100 -600 100 R 40 40 1 1 I 
+X VC 14 1500 -700 100 L 40 40 1 1 P 
+X VOUT 8 1500 -300 100 L 40 40 1 1 W 
+X PGND 5 1500 -1200 100 L 40 40 1 1 W 
+X PGND 6 1500 -1300 100 L 40 40 1 1 W 
+X SGND 3 1500 -1400 100 L 40 40 1 1 W 
+S 200 100 1400 -1500 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
