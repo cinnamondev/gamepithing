@@ -6,6 +6,8 @@
 
   (title_block
     (title "Gamepad buttons")
+    (rev "indev")
+    (comment 1 "https://github.com/cinnamondev/gamepithing")
   )
 
   (lib_symbols

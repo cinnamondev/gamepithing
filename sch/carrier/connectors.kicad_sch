@@ -6,6 +6,8 @@
 
   (title_block
     (title "Port data connectors")
+    (rev "indev")
+    (comment 1 "https://github.com/cinnamondev/gamepithing")
   )
 
   (lib_symbols

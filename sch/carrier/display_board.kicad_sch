@@ -6,6 +6,8 @@
 
   (title_block
     (title "Display connector board (not part of mainboard)")
+    (rev "indev")
+    (comment 1 "https://github.com/cinnamondev/gamepithing")
   )
 
   (lib_symbols
@@ -740,7 +742,8 @@
     (uuid a1eef1a8-e669-4871-8fcd-32632712392d)
   )
 
-  (text "connector to our board\n" (at 95.885 57.15 180)
+  (text "connector to our board \n(replicate on another point, \nbut make sure this is on its \nown snap board)\n"
+    (at 95.885 57.15 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid bcadb97b-3262-4fc5-89ba-317c25a8c3e1)
   )
@@ -761,7 +764,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6aaee390-2c28-4cbb-9bc7-1f2fe75d5838)
   )
-  (text "This is the display connector\n" (at 197.485 48.26 180)
+  (text "This is the display connector\n" (at 198.755 52.705 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 625cc9f0-3d9e-47d7-b536-13b1a208c5d8)
   )

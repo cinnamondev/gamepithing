@@ -6,6 +6,8 @@
 
   (title_block
     (title "CM4 GPIO")
+    (rev "indev")
+    (comment 1 "https://github.com/cinnamondev/gamepithing")
   )
 
   (lib_symbols
