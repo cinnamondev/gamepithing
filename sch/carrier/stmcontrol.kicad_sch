@@ -7,6 +7,7 @@
   (title_block
     (title "STM32 control subsystem")
     (rev "indev")
+    (comment 1 "https://www.github.com/cinnamondev/gamepithing")
   )
 
   (lib_symbols

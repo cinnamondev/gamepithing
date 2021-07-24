@@ -7,6 +7,7 @@
   (title_block
     (title "CM4 Gameboy Main Sheet")
     (rev "indev")
+    (comment 1 "https://www.github.com/cinnamondev/gamepithing")
   )
 
   (lib_symbols
@@ -406,6 +407,9 @@
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/31d14975-d4ac-42bb-bcce-ab2b2b6f4c69"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/4fd961e9-be49-43a2-a157-c94f2e3bdc6b"
+      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
+    )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/70e39ef6-8dc8-400f-8839-a9264ef4f4d0"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -439,7 +443,10 @@
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/b39aec79-edbe-4ac6-8c37-317826d1dabe"
       (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
     )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/caa8900f-56cc-4470-9674-1c29f9ebe0d0"
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/c397c608-ce54-4506-a059-41526106a690"
+      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/cf502cb2-0c0c-4024-bb46-4c931dc575c3"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/dfb841d5-7c60-44cb-9a48-7a4722b41179"
@@ -476,9 +483,6 @@
       (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0504_1310Metric_Pad0.83x1.28mm_HandSolder")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/4cfeeb6f-332d-4d95-b48d-3136f26e3c88"
-      (reference "C?") (unit 1) (value "C") (footprint "")
-    )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/4fc42efd-db66-4627-ab7d-edfe83424bc6"
       (reference "C?") (unit 1) (value "C") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/87cfe042-a141-4402-932c-bb6067f47fde"
@@ -518,7 +522,7 @@
       (reference "J?") (unit 1) (value "52271-0879") (footprint "MOLEXZIF:Molex-52271-0879-Manufacturer_Recommended")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/bb30d95f-98e4-48ff-952e-b2c1bda59da5"
-      (reference "L?") (unit 1) (value "L") (footprint "")
+      (reference "L?") (unit 1) (value "6.8uH") (footprint "")
     )
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/e01a84bb-3baa-4e36-b067-99d52f0115b6"
       (reference "Module0") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
@@ -527,7 +531,7 @@
       (reference "Module0") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/d54f1de9-29b1-46ad-99d1-f8d4418490d1"
-      (reference "NT?") (unit 1) (value "NetTie_2") (footprint "")
+      (reference "NT?") (unit 1) (value "NetTie") (footprint "NetTie:NetTie-2_SMD_Pad0.5mm")
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/d38f75a1-b8db-4168-9a94-afda41263ee2"
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -595,14 +599,14 @@
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/05f5b709-48c7-4efb-9cc9-1286aef61f20"
       (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/0b09c4dd-0071-456b-8d1e-b113d80b3647"
-      (reference "R?") (unit 1) (value "R") (footprint "")
-    )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/0d7eeb9f-1a01-4de0-a2ef-07f83721727d"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/20a945b1-c7b5-4f5c-b018-3d3be2483f32"
+      (reference "R?") (unit 1) (value "10.5k") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/24e9c98f-8c11-4b43-8bee-981210eeacfc"
       (reference "R?") (unit 1) (value "120k") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/2846c1d2-b47c-498a-b3e6-5db9088f849d"
+      (reference "R?") (unit 1) (value "10.5k") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/4836f9f3-34d7-4d86-9132-e88a7dd5af43"
       (reference "R?") (unit 1) (value "2.49k") (footprint "")
@@ -629,7 +633,7 @@
       (reference "R?") (unit 1) (value "1.3k") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/8ed026ec-9f87-40d5-b408-b4343135e7d7"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+      (reference "R?") (unit 1) (value "10k") (footprint "")
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/95849934-0d50-4ecc-8279-4d22be07a9e2"
       (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -637,17 +641,29 @@
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/981cfd43-b4cc-48a7-a0fe-3b724c83c517"
       (reference "R?") (unit 1) (value "1k") (footprint "")
     )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/a30f465a-b1d9-4de0-aaaf-1b890161b441"
+      (reference "R?") (unit 1) (value "10.5k") (footprint "")
+    )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/a4d0515b-0efa-4235-9aaa-e7efa5e9e2a4"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+      (reference "R?") (unit 1) (value "55.2k") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/ac6dd904-d5c9-4404-b32b-3140e06066c5"
+      (reference "R?") (unit 1) (value "10.5k") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/bcac008f-d70e-416b-90ca-101684510b4c"
       (reference "R?") (unit 1) (value "20m") (footprint "")
     )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/c19b7e04-1b20-4765-aafd-c3148e0862bf"
+      (reference "R?") (unit 1) (value "10.5k") (footprint "")
+    )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/e6dc3824-8767-4cbe-9a20-d3434c5741ad"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+      (reference "R?") (unit 1) (value "3k") (footprint "")
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/e9c4f304-3537-465d-9ec3-2ef9de04eb6d"
       (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/e9e317bb-24d6-4493-bc52-25e0eb96bcbc"
+      (reference "R?") (unit 1) (value "10.5k") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/f8c7ed3b-ce8d-4b39-9abd-2ca688c5f13c"
       (reference "R?") (unit 1) (value "16k") (footprint "")
@@ -678,9 +694,6 @@
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/abd44681-3056-4284-a0b4-82e2ecb66505"
       (reference "SW?") (unit 1) (value "SKRBAAE010") (footprint "eec:SKRBAAE010")
-    )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/4e011e61-606d-4a9c-955c-395a50439e3d"
-      (reference "TH?") (unit 1) (value "Thermistor_NTC") (footprint "")
     )
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/21ed496c-8f2a-44e1-a5b2-9ddb7f0a302b"
       (reference "TP") (unit 1) (value "MOSI") (footprint "")
