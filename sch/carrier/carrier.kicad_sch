@@ -70,6 +70,22 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid d46f07f0-461b-478f-a9d1-215dd785359c)
   )
+  (wire (pts (xy 158.115 111.125) (xy 158.115 120.65))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 9d5c61cc-5040-4381-b5b3-76cecb445b14)
+  )
+  (wire (pts (xy 161.29 111.125) (xy 161.29 120.65))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 789d0067-db56-4f4b-8e42-fe2206dc34a7)
+  )
+  (wire (pts (xy 173.99 138.43) (xy 216.535 138.43))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid e302869e-6e02-40a2-919e-7c88faa14edc)
+  )
+  (wire (pts (xy 216.535 111.125) (xy 216.535 138.43))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid a966987d-b569-4e07-81af-572ad967c98c)
+  )
 
   (text "POTENTIAL EDIT:\nwe should probably \nget rid of this, 1.8v\n logic from the pi is\n fine because we are not\n using it in load heavy\n applications, but if buck\n to 3.3v on our own thingy\n we should be able to make\n it more efficent (otherwise\n we are boosting for the pi\n to then buck)"
     (at 44.45 52.07 0)
@@ -80,33 +96,33 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8b2a4af7-544b-4118-ab3c-861bc4a7743d)
   )
-  (text "IGNORE THIS SHEET, in a later revision might a \nlow power microcontroller to the board to manage \nRTC and power\n(software shutdowns, powerup and all that jazz)\n\nThinking could use a STM microcontroller since \nthey are common and ARM architecture"
-    (at 99.06 184.785 0)
+  (text "IGNORE THIS SHEET, in a later revision might a \nlow power microcontroller to the board to manage\ngeneral control"
+    (at 93.345 174.625 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6ff1b17a-1e85-4347-983b-465156d2e452)
   )
-  (text "Outputs:\n	- I2C for battery monitor\n\nInputs:\n	- 5V power to battery charging\nTODO: route I2C to pi"
-    (at 131.445 145.415 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8b65ff46-9ca7-4f7f-8a82-e1864bce5cd9)
-  )
-  (text "Display board is meant to\nbe a little snap off board \nsection for the display section\n"
-    (at 139.065 33.655 0)
+  (text "Snap off board for the\ndisplay side- outputs \nare a 40 pin ZIF and \na 8 pin ZIF (ffc's)"
+    (at 130.175 27.94 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 74b0344e-b03e-43b6-a896-e9ae0506ec80)
   )
-  (text "TODO: DPAD CONNECTIONS" (at 142.875 81.915 0)
+  (text "Outputs:\n	- Battery Monitor" (at 131.445 145.415 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8b65ff46-9ca7-4f7f-8a82-e1864bce5cd9)
+  )
+  (text "TODO: finish battery monitor and connect to pi GPIO."
+    (at 132.08 154.305 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e0f205ae-b5b0-4175-b87b-9b9d3ec28635)
+  )
+  (text "Provides 1.8 \nand 3.3v power - i \nreally cba to also regulate\nthat"
+    (at 137.16 102.235 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e46e23eb-e6b2-47df-a4ee-7eb871b958df)
   )
   (text "connectors:\n\n\n- SD CARD\n- SPI DISPLAY" (at 158.75 78.105 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid dcd5945f-30ec-4394-9aaa-4c90f6af8011)
-  )
-  (text "TODO: finish battery charger circuit\n\nTODO: finish battery monitor and connect to pi GPIO."
-    (at 174.625 134.62 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e0f205ae-b5b0-4175-b87b-9b9d3ec28635)
   )
   (text "TODO: would like to add more test points to this snap off board\n\nALSO READ:\nhttps://electronics.stackexchange.com/questions/473037/how-to-design-a-snap-breakable-pcb-module"
     (at 175.895 29.21 0)
@@ -158,13 +174,17 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid d2a5dd04-6eeb-4f0c-90a1-d0c16c2af867)
     )
-    (pin "FUEL_SCL" output (at 161.29 120.65 90)
+    (pin "FUEL_SCL" input (at 161.29 120.65 90)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 3736d145-fb69-4350-808a-39c4ad6a5113)
     )
-    (pin "FUEL_SDA" input (at 158.115 120.65 90)
+    (pin "FUEL_SDA" bidirectional (at 158.115 120.65 90)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 8a48db90-ec51-4c33-b5e5-ca07dfd308ea)
+    )
+    (pin "VBUS" input (at 173.99 138.43 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 4c29689a-0ff2-4128-80e8-5d1a37601028)
     )
   )
 
@@ -278,7 +298,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid a4bfbf5d-34d4-4111-bae7-93898a5f1ae5)
     )
-    (pin "FUEL_SDA" input (at 158.115 111.125 270)
+    (pin "FUEL_SDA" bidirectional (at 158.115 111.125 270)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 678021a1-62cf-43de-a9c2-8dd8320e146d)
     )
@@ -297,6 +317,10 @@
     )
     (property "Sheet file" "connectors.kicad_sch" (id 1) (at 186.69 111.6337 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "VBUS_CHARGE" output (at 216.535 111.125 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid a2660c5e-f765-4e37-b5c5-c44ccac8cb6c)
     )
   )
 
@@ -353,9 +377,6 @@
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/3475a7d6-63ed-4141-bbd3-31ef9a3faa5f"
       (reference "#PWR06") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/98955f99-d556-4585-8af4-3adb47a1c728"
-      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
-    )
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/a643dc7e-7f12-4ab9-97ad-ddf90809fd5e"
       (reference "#PWR08") (unit 1) (value "GND") (footprint "")
     )
@@ -376,9 +397,6 @@
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/1936965c-2b54-49d8-a2df-d4f0c18e6d65"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/0d48c650-81d1-45c5-bf30-b7cd027db0ca"
-      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/038fcdb6-515a-4eac-94ce-55b4f4fb17aa"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -402,6 +420,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/2c405fd4-3f93-48c7-a213-f69872b6e353"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/2f5ab548-07ee-4f3a-a8d7-6e55c164b98a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/31d14975-d4ac-42bb-bcce-ab2b2b6f4c69"
@@ -440,8 +461,14 @@
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/a5376498-2345-41d6-aed4-43834ca3d530"
       (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
     )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/ac6e28a3-8398-4731-9fbc-4a52fd9b4733"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/b39aec79-edbe-4ac6-8c37-317826d1dabe"
       (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/bc63c7d8-3695-4ef1-b201-8309001aafde"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/c397c608-ce54-4506-a059-41526106a690"
       (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
@@ -453,6 +480,9 @@
       (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/e2222448-43b5-42c2-ad62-a8c6e35d4f12"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/e520eb20-9273-47b9-ad16-14119e3de906"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/c8a711c2-5c9c-43c5-8861-afaf43eb0347"
@@ -497,6 +527,9 @@
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/d24cbb25-f7f3-4314-909a-7d1649045d50"
       (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0504_1310Metric_Pad0.83x1.28mm_HandSolder")
     )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/da604829-970e-4410-9a87-fc62ef2d858d"
+      (reference "C?") (unit 1) (value "0.47uF") (footprint "")
+    )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/f2e9aaa5-07b2-4e9c-9add-383af0b2fbde"
       (reference "C?") (unit 1) (value "10uF") (footprint "")
     )
@@ -512,11 +545,11 @@
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/c46706c8-5a62-4aed-9da5-1e36c5d03bb4"
       (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500")
     )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/5d6a706c-5304-4933-a9c3-cab3026a2cab"
-      (reference "J4") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500")
-    )
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/8e422c52-adbe-4171-a205-d76d513cf48c"
       (reference "J?") (unit 1) (value "52271-0879") (footprint "MOLEXZIF:Molex-52271-0879-Manufacturer_Recommended")
+    )
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/ecc620a3-0676-4d2d-8bc5-2778456a4438"
+      (reference "J?") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500")
     )
     (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/fe04f610-247e-46bb-bdcf-a0bc6717b1d6"
       (reference "J?") (unit 1) (value "52271-0879") (footprint "MOLEXZIF:Molex-52271-0879-Manufacturer_Recommended")
@@ -572,9 +605,6 @@
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/06e70f63-2271-4617-996d-cb617e89427d"
       (reference "R13") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/be84917c-5a81-471e-b27b-6da64b51da4a"
-      (reference "R14") (unit 1) (value "0") (footprint "")
-    )
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/6495381a-4705-4c59-8498-189b519f1a1e"
       (reference "R15") (unit 1) (value "0") (footprint "")
     )
@@ -587,12 +617,6 @@
     (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/34d10f0c-d7a0-40ac-b2ff-3f7f933d25b8"
       (reference "R19") (unit 1) (value "33") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/3b93b86c-44e5-4c67-a7aa-57deddb8749d"
-      (reference "R20") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/f4e86627-2abc-4446-99eb-72fa9481b148"
-      (reference "R21") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/05b76ed7-9631-4596-b128-360ada6cd957"
       (reference "R?") (unit 1) (value "1k") (footprint "")
     )
@@ -601,6 +625,9 @@
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/20a945b1-c7b5-4f5c-b018-3d3be2483f32"
       (reference "R?") (unit 1) (value "10.5k") (footprint "")
+    )
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/210399ea-47aa-48d6-94a2-2b438a43f65c"
+      (reference "R?") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/24e9c98f-8c11-4b43-8bee-981210eeacfc"
       (reference "R?") (unit 1) (value "120k") (footprint "")
@@ -629,6 +656,9 @@
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/790e9b80-3572-48fb-a9b9-e21b29d6c5a6"
       (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/806d201f-5d86-4d8b-8199-e450f16f2d9e"
+      (reference "R?") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/8cff14e0-f4fb-4083-8e0f-248d89dff7fa"
       (reference "R?") (unit 1) (value "1.3k") (footprint "")
     )
@@ -655,6 +685,9 @@
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/c19b7e04-1b20-4765-aafd-c3148e0862bf"
       (reference "R?") (unit 1) (value "10.5k") (footprint "")
+    )
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/ca9a7b84-eb60-421f-ad92-6b91292469c3"
+      (reference "R?") (unit 1) (value "0") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/e6dc3824-8767-4cbe-9a20-d3434c5741ad"
       (reference "R?") (unit 1) (value "3k") (footprint "")
@@ -760,6 +793,9 @@
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/5cb4b0c1-6d03-4aae-b89e-e73deba9bc95"
       (reference "U3") (unit 1) (value "MP2636GR-P") (footprint "IC_MP2636GR-P")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/e8b7dae8-a824-4a5b-9fd4-6bdbd3ff46a0"
+      (reference "U?") (unit 1) (value "BQ27441DRZR-G1B") (footprint "Package_SON:Texas_S-PDSO-N12")
     )
   )
 )
