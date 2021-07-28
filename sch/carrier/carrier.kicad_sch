@@ -867,6 +867,9 @@
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/5e1816fb-a04e-41a0-bdc2-371c4835f482"
       (reference "SW?") (unit 1) (value "SKRBAAE010") (footprint "eec:SKRBAAE010")
     )
+    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/65f9f988-f511-430a-b1c0-2814c302c06a"
+      (reference "SW?") (unit 1) (value "DTSM31NV") (footprint "")
+    )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/abd44681-3056-4284-a0b4-82e2ecb66505"
       (reference "SW?") (unit 1) (value "SKRBAAE010") (footprint "eec:SKRBAAE010")
     )
