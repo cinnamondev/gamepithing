@@ -7,7 +7,6 @@
   (title_block
     (title "Power and battery")
     (rev "indev")
-    (comment 1 "https://www.github.com/cinnamondev/gamepithing")
   )
 
   (lib_symbols
@@ -387,7 +386,7 @@
     (uuid 5c0d930b-7418-4d83-a59a-3ff8b0aadb41)
   )
 
-  (hierarchical_label "BATT" (shape output) (at 108.585 87.63 180)
+  (hierarchical_label "BATT" (shape bidirectional) (at 108.585 87.63 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0418f3df-43c7-4770-816a-b3ce5952d3bb)
   )

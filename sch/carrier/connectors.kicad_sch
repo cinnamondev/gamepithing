@@ -7,7 +7,6 @@
   (title_block
     (title "Port data connectors")
     (rev "indev")
-    (comment 1 "https://www.github.com/cinnamondev/gamepithing")
   )
 
   (lib_symbols
@@ -2315,6 +2314,11 @@
     (uuid b076659b-bbcf-4029-aaa9-41579ee38d19)
   )
 
+  (text "We don't need like, 99% of the pins on this one\nNo PCIe\nNo 2nd HDMI\nNo Camera\nNo DSI/MIPI (For now)"
+    (at 142.875 121.285 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c37ebcc6-b518-49f9-948f-baeb7f10a56f)
+  )
   (text "TODO: Find out how to do\n'differential pairs' in \nKiCad"
     (at 162.56 89.535 0)
     (effects (font (size 1.016 1.016)) (justify left bottom))

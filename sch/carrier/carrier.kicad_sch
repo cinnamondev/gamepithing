@@ -7,7 +7,6 @@
   (title_block
     (title "CM4 Gameboy Main Sheet")
     (rev "indev")
-    (comment 1 "https://www.github.com/cinnamondev/gamepithing")
   )
 
   (lib_symbols
@@ -123,10 +122,15 @@
     (uuid 199c2a46-6051-45d5-8c8a-1d5fb2e261a0)
   )
 
-  (text "IGNORE THIS SHEET, in a later revision might a \nlow power microcontroller to the board to manage\ngeneral control"
-    (at 93.345 174.625 0)
+  (text "\nhttps://electronics.stackexchange.com/questions/473037/how-to-design-a-snap-breakable-pcb-module"
+    (at 40.64 31.115 0)
+    (effects (font (size 1.016 1.016)) (justify left bottom))
+    (uuid 2f6df60a-5b01-485b-94a9-c73f4eb4e4e4)
+  )
+  (text "TODO: might have made this whole \nsense thing wrong, double check \nlater"
+    (at 112.395 135.89 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 6ff1b17a-1e85-4347-983b-465156d2e452)
+    (uuid 8fa09513-5c3e-40eb-9daf-bd336efbc847)
   )
   (text "Snap off board for the\ndisplay side- outputs \nare a 40 pin ZIF and \na 8 pin ZIF (ffc's)"
     (at 135.255 35.56 0)
@@ -143,14 +147,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dcd5945f-30ec-4394-9aaa-4c90f6af8011)
   )
+  (text "TODO: CHOOSE NPM TRANSISTOR\n" (at 145.415 97.155 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4de4162d-f3dd-4907-9e37-e9ee8323a140)
+  )
   (text "Outputs:\n	- Battery Monitor" (at 165.735 130.81 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8b65ff46-9ca7-4f7f-8a82-e1864bce5cd9)
-  )
-  (text "TODO: would like to add more test points to this snap off board\n\nALSO READ:\nhttps://electronics.stackexchange.com/questions/473037/how-to-design-a-snap-breakable-pcb-module"
-    (at 179.07 27.305 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 2f6df60a-5b01-485b-94a9-c73f4eb4e4e4)
   )
   (text "Connectors:\n	- Hirose 100 pin\n	- USB C 2.0\n		- Peripheral (ie: kbm combo)\n\n	- MicroHDMI Output\n\n	- USB C\n		- Power only (Battery system)\n	"
     (at 193.04 90.805 0)
@@ -205,7 +208,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 10a002fb-05fb-4de1-aa9f-de4d24c75890)
     )
-    (pin "BATT" output (at 146.05 116.205 0)
+    (pin "BATT" bidirectional (at 146.05 116.205 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 8e3d5c42-1e0f-4b7d-9dcf-16adc4d384f8)
     )
@@ -233,7 +236,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid bf7edf80-92d7-4dd5-a8d0-accada962b57)
     )
-    (pin "BATT" input (at 158.75 116.205 180)
+    (pin "BATT" bidirectional (at 158.75 116.205 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 7acfe51f-3c59-4e5f-ab49-3701cf82d7e0)
     )
@@ -399,18 +402,6 @@
     )
   )
 
-  (sheet (at 92.71 167.64) (size 78.105 25.4) (fields_autoplaced)
-    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 37d166c5-a261-4942-8dd2-7ed8073b2036)
-    (property "Sheet name" "MC CTRL" (id 0) (at 92.71 167.0043 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "stmcontrol.kicad_sch" (id 1) (at 92.71 193.5487 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
   (sheet_instances
     (path "/" (page "1"))
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4" (page "2"))
@@ -418,7 +409,6 @@
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0" (page "4"))
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca" (page "5"))
     (path "/95ef1699-d890-4da8-941a-b0ab341c2e25" (page "6"))
-    (path "/37d166c5-a261-4942-8dd2-7ed8073b2036" (page "7"))
     (path "/40061c73-b88e-49e9-a459-1a59a8276016" (page "8"))
   )
 

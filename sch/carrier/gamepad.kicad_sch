@@ -7,7 +7,6 @@
   (title_block
     (title "Gamepad buttons")
     (rev "indev")
-    (comment 1 "https://www.github.com/cinnamondev/gamepithing")
   )
 
   (lib_symbols
@@ -1231,14 +1230,28 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4bb7f94f-65f2-4a7c-ac81-43629c70605c)
   )
-  (text "Global_EN when pulled to GND causes pi to 'turn off'"
-    (at 229.235 43.18 0)
+  (text "This button will be used for GPIO halt / fake sleep mode\nWhen device is not in use GLOBAL_EN should still be pulled low"
+    (at 132.08 88.9 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 67b5efe9-8a8a-4dd9-94df-df0ac86656fe)
+  )
+  (text "We will use a dip switch for this because lazy, can position it so its hidden under that battery tray"
+    (at 186.69 15.24 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 18c1f37e-872a-4c3a-9359-577582a83e02)
+  )
+  (text "Global_EN when pulled to GND causes pi to 'turn off' - all \nloads source from pi so there should be no load"
+    (at 227.33 42.545 0)
     (effects (font (size 0.508 0.508)) (justify left bottom))
     (uuid e421aa94-52ba-4113-ac89-f9776c56779f)
   )
-  (text "Pi reset pin/global_en" (at 256.54 20.32 0)
+  (text "Pi reset pin/global_en" (at 243.205 34.29 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fa660303-7ec0-4b33-93c0-b4d3b65fd906)
+  )
+  (text "chs-04ta\n" (at 262.255 41.275 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 334f5e88-6ac2-40c0-84db-c3b44c41e3c6)
   )
 
   (label "__DP_U" (at 29.21 27.94 0)

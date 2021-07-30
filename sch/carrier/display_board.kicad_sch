@@ -7,7 +7,6 @@
   (title_block
     (title "Display connector board (not part of mainboard)")
     (rev "indev")
-    (comment 1 "https://www.github.com/cinnamondev/gamepithing")
   )
 
   (lib_symbols
