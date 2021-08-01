@@ -3048,7 +3048,7 @@
     (uuid 42329242-d40b-4354-a3d8-68a075307433)
     (property "Reference" "R25" (id 0) (at 277.495 92.075 90))
     (property "Value" "0" (id 1) (at 277.495 90.17 90))
-    (property "Footprint" "" (id 2) (at 277.495 88.392 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 277.495 88.392 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 277.495 90.17 0)

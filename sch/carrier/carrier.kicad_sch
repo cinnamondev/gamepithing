@@ -766,7 +766,7 @@
       (reference "R24") (unit 1) (value "8") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/42329242-d40b-4354-a3d8-68a075307433"
-      (reference "R25") (unit 1) (value "0") (footprint "")
+      (reference "R25") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/54f1871d-58ed-4b21-9b17-62c89db84e3c"
       (reference "R26") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
