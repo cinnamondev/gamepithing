@@ -467,9 +467,6 @@
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/be969abb-ad06-4455-901d-9b82f29401c5"
       (reference "#PWR016") (unit 1) (value "GND") (footprint "")
     )
-    (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/0ca2c35d-9ad6-4cc0-888d-da7e03e06e0b"
-      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
-    )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/28170b79-9f82-471c-8104-433476d31fd4"
       (reference "#PWR018") (unit 1) (value "GND") (footprint "")
     )
@@ -557,9 +554,6 @@
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/725630bd-4912-4adb-8ce6-0894580bfca5"
       (reference "#PWR046") (unit 1) (value "GND") (footprint "")
     )
-    (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/70e40a14-7b0f-4b02-88ad-8c00a06317a5"
-      (reference "#PWR047") (unit 1) (value "GND") (footprint "")
-    )
     (path "/40061c73-b88e-49e9-a459-1a59a8276016/6a4ecaf1-61c1-464b-ac03-db855fab47b8"
       (reference "#PWR048") (unit 1) (value "GND") (footprint "")
     )
@@ -583,6 +577,12 @@
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/1936965c-2b54-49d8-a2df-d4f0c18e6d65"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/ab72b7e3-7457-4301-8007-a8b507595f48"
+      (reference "#PWR?") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/beaa40cb-ff57-40d7-8a75-c139ffaab96d"
+      (reference "#PWR?") (unit 1) (value "GND1") (footprint "")
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/c8a711c2-5c9c-43c5-8861-afaf43eb0347"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
