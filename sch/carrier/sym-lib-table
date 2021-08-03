@@ -9,4 +9,5 @@
   (lib (name "LTC3533")(type "KiCad")(uri "${KIPRJMOD}/comp/ltc3533/LTC3533.kicad_sym")(options "")(descr ""))
   (lib (name "mp2636")(type "KiCad")(uri "${KIPRJMOD}/comp/mp2636/MP2636GR-P.kicad_sym")(options "")(descr ""))
   (lib (name "mp6420")(type "KiCad")(uri "${KIPRJMOD}/comp/MP/MP6420.kicad_sym")(options "")(descr ""))
+  (lib (name "tvs")(type "KiCad")(uri "${KIPRJMOD}/comp/tvs/SamacSys_Parts.kicad_sym")(options "")(descr ""))
 )

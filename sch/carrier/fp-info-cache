@@ -1,4 +1,4 @@
-19569314091916137
+19574197932718016
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84454,6 +84454,20 @@ varistor SIOV
 0
 2
 2
+audio
+audio
+
+
+0
+7
+7
+dipswitch
+CHS04TA1
+CHS-04TA1-2
+Switch
+0
+8
+8
 eec
 ALPS-SKRRACE010-0-0-MFG
 
@@ -84489,3 +84503,10 @@ TE_Connectivity-1-1825027-1-0-0-Recommended_Land_Pattern_
 0
 4
 4
+tvs
+SOT95P280X145-5N
+SOT23-5L
+Diode
+0
+5
+5

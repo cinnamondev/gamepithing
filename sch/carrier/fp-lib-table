@@ -8,4 +8,7 @@
   (lib (name "sdcard")(type "KiCad")(uri "${KIPRJMOD}/comp/sd")(options "")(descr ""))
   (lib (name "sw")(type "KiCad")(uri "${KIPRJMOD}/comp/switch")(options "")(descr ""))
   (lib (name "mp2636")(type "KiCad")(uri "${KIPRJMOD}/comp/mp2636")(options "")(descr ""))
+  (lib (name "audio")(type "KiCad")(uri "${KIPRJMOD}/comp/audio")(options "")(descr ""))
+  (lib (name "dipswitch")(type "KiCad")(uri "${KIPRJMOD}/comp/dipswitch")(options "")(descr ""))
+  (lib (name "tvs")(type "KiCad")(uri "${KIPRJMOD}/comp/tvs")(options "")(descr ""))
 )
