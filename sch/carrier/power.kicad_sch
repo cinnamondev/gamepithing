@@ -1594,7 +1594,7 @@
     (uuid bcac008f-d70e-416b-90ca-101684510b4c)
     (property "Reference" "R47" (id 0) (at 192.405 53.34 90))
     (property "Value" "20m" (id 1) (at 192.405 55.88 90))
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 192.405 57.658 90)
+    (property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder" (id 2) (at 192.405 57.658 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 192.405 55.88 0)
