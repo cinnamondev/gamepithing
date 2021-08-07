@@ -1,4 +1,4 @@
-19574199437124666
+19642918792593939
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -47932,6 +47932,13 @@ Converter_DCDC
 Converter_DCDC_TRACO_TDN_5-xxxxWISM_SMD
 Traco TDN 5WISM Series, 5W, SMD (https://assets.tracopower.com/20200225170127/TDN5WISM/documents/tdn5wism-datasheet.pdf#page=3)
 dcdc traco 5w smd
+0
+6
+6
+Converter_DCDC
+Converter_DCDC_TRACO_TDN_5-xxxxWI_THT
+Traco TDN 5WI Series, 5W (https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wi_datasheet.pdf#page=4)
+dcdc traco 5w
 0
 6
 6
