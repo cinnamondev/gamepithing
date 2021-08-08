@@ -1,17 +1,32 @@
-# gamepithing
-game pi thing
+# Raspberry Pi GBASP
 
-PCB carrier for a Compute Module 4 - designed for a Gameboy Advance SP shell.
-Has an attached board for a SPI based TFT display - [this one](https://www.buydisplay.com/serial-spi-3-2-inch-tft-lcd-module-display-ili9341-power-than-sainsmart)
+PCB carrier for a compute module 4 to go in a Gameboy Advance SP.
 
-Has 2x USB C (1x USB2 for debug and peripherals, 1x 5V 3A power)
+(Images soon.)
+
+## Loading this project
+
+Clone this project via git
+`git clone https://github.com/cinnamondev/gamepithing`
+
+You need KiCad 6 / KiCad Nightly to open this project
+[KiCad Download](https://www.kicad.org/download/)
+
+## Build it
+
+Follow part list and get soldering
+(More info here later, not complete)
+
 
 ## TODO
 
-- Battery charging circuit
-- probably something else im forgetting
-- clean up and actually making the pcb.
+- PCB & Testing
+- Images
+- Software part
 
-## Parts list & costs
+[Part list](PARTS.MD)
 
-[parts list](PARTS.MD)
+## Licensing
+
+Licensed under CERN Open Hardware License v2 - Strongly Reciprocal
+[License](LICENSE)
