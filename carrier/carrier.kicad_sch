@@ -755,9 +755,6 @@
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/cfd70977-4f64-420f-9457-dae881aedf16"
       (reference "R14") (unit 1) (value "270") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/6495381a-4705-4c59-8498-189b519f1a1e"
-      (reference "R15") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/46c0ac2d-5e98-4f27-ad98-1adff52dcd5b"
       (reference "R16") (unit 1) (value "56k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
@@ -877,9 +874,6 @@
     )
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/080e51d1-6d1d-4d6d-81d1-42bbd7d5ae2e"
       (reference "R57") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/6a9ca94a-c913-4065-bc57-e0b14e086e49"
-      (reference "R58") (unit 1) (value "0") (footprint "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder")
     )
     (path "/40061c73-b88e-49e9-a459-1a59a8276016/257f8c31-fcc2-4fbb-a7d5-c343168e3446"
       (reference "R59") (unit 1) (value "10m") (footprint "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder")
@@ -1003,12 +997,6 @@
     )
     (path "/40061c73-b88e-49e9-a459-1a59a8276016/19999a26-8dd6-4500-aaf3-51c2a5710f32"
       (reference "TP26") (unit 1) (value "BATT+") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
-    )
-    (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/5ac13b1a-7718-4edd-9b33-86727a3fd12b"
-      (reference "TP27") (unit 1) (value "AUXR") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
-    )
-    (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/0dfb0d1b-bea9-4c3d-8013-b8f19eca1c30"
-      (reference "TP28") (unit 1) (value "AUXL") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/e5ea8ed9-1334-45da-8719-957e7da56073"
       (reference "U1") (unit 1) (value "SN74HC14N") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
