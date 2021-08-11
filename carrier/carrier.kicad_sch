@@ -584,6 +584,9 @@
     (path "/40061c73-b88e-49e9-a459-1a59a8276016/7dce3bfd-1ff9-4627-aa0c-d4a03afcb25c"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/1abc37b4-061c-4f75-a9b3-a535001a09f6"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/c8a711c2-5c9c-43c5-8861-afaf43eb0347"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
@@ -679,6 +682,9 @@
     )
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/f8cbbe11-9b7f-4310-ba35-4d38a9f9c912"
       (reference "D6") (unit 1) (value "824011") (footprint "tvs:SOT95P280X145-5N")
+    )
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/130e745c-6750-4b1c-82e4-396fb38376b5"
+      (reference "D7") (unit 1) (value "824011") (footprint "tvs:SOT95P280X145-5N")
     )
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/c46706c8-5a62-4aed-9da5-1e36c5d03bb4"
       (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500")
@@ -870,10 +876,10 @@
       (reference "R55") (unit 1) (value "0") (footprint "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder")
     )
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/903d69ed-29d4-41df-8fda-0eb7343c8ece"
-      (reference "R56") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R56") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/080e51d1-6d1d-4d6d-81d1-42bbd7d5ae2e"
-      (reference "R57") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R57") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/40061c73-b88e-49e9-a459-1a59a8276016/257f8c31-fcc2-4fbb-a7d5-c343168e3446"
       (reference "R59") (unit 1) (value "10m") (footprint "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder")
