@@ -485,12 +485,6 @@
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/0c4df6fe-82f7-4dcf-b6e6-417e7259f80b"
       (reference "#PWR023") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/a526eb87-6331-4954-ab29-4e959767e795"
-      (reference "#PWR024") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/b39aec79-edbe-4ac6-8c37-317826d1dabe"
-      (reference "#PWR025") (unit 1) (value "GNDA") (footprint "")
-    )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/957d3bd6-46cd-4db6-9e83-1335148e3e62"
       (reference "#PWR026") (unit 1) (value "GND") (footprint "")
     )
@@ -587,6 +581,12 @@
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/1abc37b4-061c-4f75-a9b3-a535001a09f6"
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/a9c145f6-d46e-471a-b7d6-d308bab7ff2b"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/309ee25f-ff35-4cb1-82a4-cd026cb2409b"
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
+    )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/c8a711c2-5c9c-43c5-8861-afaf43eb0347"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
@@ -630,7 +630,7 @@
       (reference "C14") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/f2e9aaa5-07b2-4e9c-9add-383af0b2fbde"
-      (reference "C15") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_2225_5664Metric_Pad1.80x6.60mm_HandSolder")
+      (reference "C15") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/87cfe042-a141-4402-932c-bb6067f47fde"
       (reference "C16") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -925,9 +925,6 @@
     )
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/be8b9ef9-947c-45ae-b906-fa62d7ea7223"
       (reference "TP1") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
-    )
-    (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/efa67138-796f-4af2-8eb8-b0923e4585cc"
-      (reference "TP2") (unit 1) (value "Activity") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/0bc9036d-49ec-4776-912f-7ec325ecb29d"
       (reference "TP3") (unit 1) (value "CEO_N") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
