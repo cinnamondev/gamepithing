@@ -651,7 +651,7 @@
       (reference "C21") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/40061c73-b88e-49e9-a459-1a59a8276016/da604829-970e-4410-9a87-fc62ef2d858d"
-      (reference "C22") (unit 1) (value "0.47uF") (footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+      (reference "C22") (unit 1) (value "0.47uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/9f8b641b-5c39-47fa-8f91-96187f2c9c91"
       (reference "C23") (unit 1) (value "33n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
