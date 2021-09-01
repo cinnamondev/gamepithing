@@ -680,11 +680,11 @@
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/35bcefaf-b769-47b3-a050-db4215287d61"
       (reference "D5") (unit 1) (value "BAV99") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/f8cbbe11-9b7f-4310-ba35-4d38a9f9c912"
-      (reference "D6") (unit 1) (value "824011") (footprint "tvs:SOT95P280X145-5N")
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/91d76602-37c1-4e5b-9429-4064d7c679b7"
+      (reference "D6") (unit 1) (value "8240119") (footprint "CM4IO:SOT143-4L")
     )
-    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/130e745c-6750-4b1c-82e4-396fb38376b5"
-      (reference "D7") (unit 1) (value "824011") (footprint "tvs:SOT95P280X145-5N")
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/e493ee02-f1f2-4a25-bd81-0188581525af"
+      (reference "D7") (unit 1) (value "8240119") (footprint "CM4IO:SOT143-4L")
     )
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/c46706c8-5a62-4aed-9da5-1e36c5d03bb4"
       (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500")
