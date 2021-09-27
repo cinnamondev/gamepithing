@@ -431,9 +431,6 @@
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/e0c2d02a-3a12-400c-8556-ee8191bc5e17"
       (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
-    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/eefb25cb-efab-49ac-a792-87bf61f4797f"
-      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
-    )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/3475a7d6-63ed-4141-bbd3-31ef9a3faa5f"
       (reference "#PWR06") (unit 1) (value "GND") (footprint "")
     )
@@ -518,17 +515,11 @@
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/e2222448-43b5-42c2-ad62-a8c6e35d4f12"
       (reference "#PWR036") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/2c405fd4-3f93-48c7-a213-f69872b6e353"
-      (reference "#PWR037") (unit 1) (value "GND") (footprint "")
-    )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/7f4364c5-480f-4855-9f42-7cecbcfe99bd"
       (reference "#PWR038") (unit 1) (value "GND") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/0918cd3a-c131-48e8-9f7d-102a3a986701"
       (reference "#PWR039") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/1f12e8ac-06da-4461-9b77-48ad702f12ce"
-      (reference "#PWR040") (unit 1) (value "GND") (footprint "")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/4fd961e9-be49-43a2-a157-c94f2e3bdc6b"
       (reference "#PWR041") (unit 1) (value "GNDA") (footprint "")
@@ -997,9 +988,6 @@
     )
     (path "/40061c73-b88e-49e9-a459-1a59a8276016/19999a26-8dd6-4500-aaf3-51c2a5710f32"
       (reference "TP26") (unit 1) (value "BATT+") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
-    )
-    (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/e5ea8ed9-1334-45da-8719-957e7da56073"
-      (reference "U1") (unit 1) (value "SN74HC14N") (footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm")
     )
     (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/c3ae980c-e328-42d4-aab1-9386e5a9d44a"
       (reference "U2") (unit 1) (value "ER-CON40HT-1") (footprint "ER-CON40HT-1:ER-CON40HT-1")
