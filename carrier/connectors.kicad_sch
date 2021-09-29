@@ -2431,6 +2431,10 @@
     (uuid b076659b-bbcf-4029-aaa9-41579ee38d19)
   )
 
+  (text "Note: probably omit the HDMI connector now," (at 129.54 42.672 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9e1cbcfe-07fa-4bb0-95f8-8890e599eb5f)
+  )
   (text "We don't need like, 99% of the pins on this one\nNo PCIe\nNo 2nd HDMI\nNo Camera\nNo DSI/MIPI (For now)"
     (at 142.875 121.285 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
