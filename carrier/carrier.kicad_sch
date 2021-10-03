@@ -17,10 +17,6 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid ca9900be-c73d-4459-b7a4-4fc6db3a083c)
   )
-  (wire (pts (xy 102.235 142.875) (xy 107.95 142.875))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-    (uuid ae0653dd-67b3-43c1-9271-f98d04a110e4)
-  )
   (wire (pts (xy 114.3 59.055) (xy 127 59.055))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 1ca91278-0db6-4ce9-bba9-afac96dc3717)
@@ -155,10 +151,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6a410b9e-6bfd-44ee-9667-ff2e74b566b6)
   )
-  (label "+3.3v" (at 102.235 142.875 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9942f62e-904d-4fff-9055-9b7859a418b8)
-  )
   (label "+1.8v" (at 159.385 50.8 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e8dc38c8-62fa-4e4b-8d6f-f8a5bbe0890b)
@@ -201,10 +193,6 @@
     (pin "BATT" bidirectional (at 146.05 116.205 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 8e3d5c42-1e0f-4b7d-9dcf-16adc4d384f8)
-    )
-    (pin "+3.3v" input (at 107.95 142.875 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid e76c13c2-c55d-46c3-b8e2-9258586acf00)
     )
   )
 
@@ -503,9 +491,6 @@
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/80687141-cadd-4704-b8c2-be236384086d"
       (reference "#PWR032") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/04d39b6f-bef8-4e10-b64f-61ce5ff85de0"
-      (reference "#PWR033") (unit 1) (value "GND") (footprint "")
-    )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/129c8999-6ac8-415a-99f5-4b344c68b146"
       (reference "#PWR034") (unit 1) (value "GND") (footprint "")
     )
@@ -577,6 +562,9 @@
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/309ee25f-ff35-4cb1-82a4-cd026cb2409b"
       (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/efacc3e3-b342-4b3e-90b1-8a3c97601e01"
+      (reference "#PWR0109") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/59fee1d9-7f44-408e-bd4e-36f39b8a6086/c8a711c2-5c9c-43c5-8861-afaf43eb0347"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
