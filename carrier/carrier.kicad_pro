@@ -69,7 +69,6 @@
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
-        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -465,7 +464,7 @@
       }
     ],
     "meta": {
-      "version": 2
+      "version": 1
     },
     "net_colors": null
   },
@@ -502,7 +501,7 @@
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 1
+      "version": 0
     },
     "net_format_name": "",
     "ngspice": {
@@ -545,10 +544,6 @@
     [
       "95ef1699-d890-4da8-941a-b0ab341c2e25",
       "Display board (SNAP OFF BOARD)"
-    ],
-    [
-      "40061c73-b88e-49e9-a459-1a59a8276016",
-      "Battery"
     ]
   ],
   "text_variables": {}
