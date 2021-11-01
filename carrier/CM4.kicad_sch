@@ -6,7 +6,7 @@
 
   (title_block
     (title "CM4 GPIO")
-    (rev "indev")
+    (rev "indevRev2")
   )
 
   (lib_symbols

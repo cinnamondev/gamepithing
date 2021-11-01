@@ -6,7 +6,7 @@
 
   (title_block
     (title "Port data connectors")
-    (rev "indev")
+    (rev "indevRev2")
   )
 
   (lib_symbols

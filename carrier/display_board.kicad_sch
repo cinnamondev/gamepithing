@@ -6,7 +6,7 @@
 
   (title_block
     (title "Display connector board (not part of mainboard)")
-    (rev "indev")
+    (rev "indevRev2")
   )
 
   (lib_symbols
