@@ -1,0 +1,15 @@
+(kicad_sch (version 20210621) (generator eeschema)
+
+  (uuid 00d92810-6dd0-4728-86a3-78e1db639f78)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "for power and rtc etc" (at 119.38 81.28 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d8e07cf6-960e-431e-a612-547ae6602a18)
+  )
+)
