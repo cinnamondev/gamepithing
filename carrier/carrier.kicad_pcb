@@ -3291,7 +3291,7 @@
     )
   )
 
-  (gr_rect (start 227 72.2) (end 291 156.2) (layer "F.Cu") (width 0.2) (fill none) (tstamp fc0dc500-7766-4697-8e02-611d3d9d8245))
+  (gr_rect (start 241.8 64.8) (end 305.8 148.8) (layer "F.Cu") (width 0.2) (fill none) (tstamp fc0dc500-7766-4697-8e02-611d3d9d8245))
   (gr_line (start 103.5901 102.8868) (end 103.5845 102.9025) (layer "F.SilkS") (width 0.001) (tstamp 047607d6-8139-44f2-926f-80add5059f3e))
   (gr_line (start 103.6023 102.856) (end 103.596 102.8714) (layer "F.SilkS") (width 0.001) (tstamp 2a89918c-2fc2-4247-b893-d3672905cb2f))
   (gr_arc (start 163.180323 93.529887) (end 155.433395 92.741809) (angle 312.8) (layer "F.SilkS") (width 0.15) (tstamp 30df5791-7e3d-4c28-95a6-78658b2c1b1a))

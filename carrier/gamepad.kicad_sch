@@ -894,6 +894,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 41085cbf-0147-46e2-beb1-4942cde84b4b)
   )
+  (text "FIND SHOULDER" (at 178.435 33.02 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 768d7e01-3d8e-4ef2-9090-3e5b87ee89b3)
+  )
   (text "This button will be used for GPIO halt / fake sleep mode\nWhen device is not in use GLOBAL_EN should still be pulled low"
     (at 237.49 12.7 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
