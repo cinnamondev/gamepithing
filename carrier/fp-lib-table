@@ -11,4 +11,5 @@
   (lib (name "audio")(type "KiCad")(uri "${KIPRJMOD}/comp/audio")(options "")(descr ""))
   (lib (name "dipswitch")(type "KiCad")(uri "${KIPRJMOD}/comp/dipswitch")(options "")(descr ""))
   (lib (name "tvs")(type "KiCad")(uri "${KIPRJMOD}/comp/tvs")(options "")(descr ""))
+  (lib (name "panasonic")(type "KiCad")(uri "${KIPRJMOD}/comp/panasonic/eec.pretty")(options "")(descr ""))
 )

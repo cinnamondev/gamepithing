@@ -69,6 +69,7 @@
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -87,6 +88,7 @@
         "silk_over_copper": "error",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -464,7 +466,7 @@
       }
     ],
     "meta": {
-      "version": 1
+      "version": 2
     },
     "net_colors": null
   },
@@ -501,7 +503,7 @@
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_format_name": "",
     "ngspice": {
@@ -548,6 +550,10 @@
     [
       "77193d89-78c6-4010-825b-a155aec2e93e",
       "MCU"
+    ],
+    [
+      "114b5e56-0032-45d3-b5fa-4bcf49f0b464",
+      "Untitled Sheet"
     ]
   ],
   "text_variables": {}

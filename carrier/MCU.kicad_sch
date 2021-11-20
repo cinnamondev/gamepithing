@@ -12,4 +12,9 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d8e07cf6-960e-431e-a612-547ae6602a18)
   )
+
+  (hierarchical_label "BTN_POW" (shape input) (at 50.165 104.775 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1f885fe9-c3fb-45af-92de-a0081249f459)
+  )
 )
