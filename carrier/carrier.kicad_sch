@@ -637,11 +637,14 @@
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/62393b50-5922-4171-b75b-ac60ba09522e"
       (reference "LS1") (unit 1) (value "Speaker") (footprint "CM4IO:speaker")
     )
-    (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/e01a84bb-3baa-4e36-b067-99d52f0115b6"
+    (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/4331587b-b3d7-400a-867b-90e25fa59f4b"
       (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
     )
-    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/8a3a1801-78b4-4fe5-92b8-af1b67fa3251"
-      (reference "Module2") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/2e550c17-a29c-4ca3-88f1-d9aab5cf5b61"
+      (reference "Module1") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    )
+    (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/38ffe49d-9979-4c73-a009-42386f1c3941"
+      (reference "Module1") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
     )
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/48f138a0-3abf-4689-8e22-81c9d217626c"
       (reference "Q1") (unit 1) (value "2N2219") (footprint "Package_TO_SOT_THT:TO-39-3")
