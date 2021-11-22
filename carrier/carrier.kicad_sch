@@ -643,9 +643,6 @@
     (path "/7d2c72bb-6811-42b4-a3fa-d7ba2c227aca/2e550c17-a29c-4ca3-88f1-d9aab5cf5b61"
       (reference "Module1") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
     )
-    (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/38ffe49d-9979-4c73-a009-42386f1c3941"
-      (reference "Module1") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
-    )
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/48f138a0-3abf-4689-8e22-81c9d217626c"
       (reference "Q1") (unit 1) (value "2N2219") (footprint "Package_TO_SOT_THT:TO-39-3")
     )
