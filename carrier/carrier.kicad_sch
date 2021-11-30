@@ -910,5 +910,8 @@
     (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/c3ae980c-e328-42d4-aab1-9386e5a9d44a"
       (reference "U4") (unit 1) (value "ER-CON40HT-1") (footprint "ER-CON40HT-1:ER-CON40HT-1")
     )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/2082b37e-7f43-4744-a956-507593082910"
+      (reference "U?") (unit 1) (value "MAX77751") (footprint "")
+    )
   )
 )
