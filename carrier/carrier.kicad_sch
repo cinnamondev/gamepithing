@@ -514,6 +514,18 @@
     (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/beaa40cb-ff57-40d7-8a75-c139ffaab96d"
       (reference "#PWR045") (unit 1) (value "GND1") (footprint "")
     )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/24f853a9-cbd0-4d28-9112-c400cd23f3be"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/757cc289-cea7-4985-8711-325d59b8a3d5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/ca05df49-89cb-4536-aabb-1d8b4f213112"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/fbd9f7a3-3644-4183-8746-97c826891900"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/8818e57c-5f66-4d5d-9da6-2a6e75c0d509"
       (reference "C1") (unit 1) (value "33n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
@@ -588,6 +600,9 @@
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/c4bbf200-1ad5-4a84-8645-ebe1e9a04173"
       (reference "C25") (unit 1) (value "1u") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/fc6c0b01-a5a5-4efc-987f-5817cb208550"
+      (reference "C?") (unit 1) (value "470n") (footprint "")
     )
     (path "/19c5e008-dc4a-4080-a2ed-5cdad03792a4/86f057dd-5f37-4747-a676-a365d3666b91"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
@@ -904,14 +919,14 @@
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/85d63036-2b33-490e-a870-d501ad729bd6"
       (reference "U2") (unit 1) (value "MAX1709") (footprint "Package_SO:TSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x6.7mm")
     )
-    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/526c8eee-9f08-4084-85a5-ed4de0de929c"
-      (reference "U3") (unit 1) (value "BQ27441DRZT-G1B") (footprint "Package_SON:Texas_S-PDSO-N12")
-    )
     (path "/95ef1699-d890-4da8-941a-b0ab341c2e25/c3ae980c-e328-42d4-aab1-9386e5a9d44a"
       (reference "U4") (unit 1) (value "ER-CON40HT-1") (footprint "ER-CON40HT-1:ER-CON40HT-1")
     )
     (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/2082b37e-7f43-4744-a956-507593082910"
       (reference "U?") (unit 1) (value "MAX77751") (footprint "")
+    )
+    (path "/8d0ae364-2b30-4b7c-813a-81b59cbe3cd0/8df0a786-fc09-4567-ab31-e2a524e44f0c"
+      (reference "U?") (unit 1) (value "BQ27441DRZT-G1B") (footprint "Package_SON:Texas_S-PDSO-N12")
     )
   )
 )
