@@ -1,0 +1,50 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ALPS SKRRACE010
+#
+DEF SKRRACE010 SW 0 40 Y Y 1 L N
+F0 "SW" 0 100 50 H V L CNN 
+F1 "SKRRACE010" 0 200 50 H V L CNN 
+F2 "ALPS-SKRRACE010-0-0-*" 0 300 50 H I L CNN 
+F3 "https://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRR/SKRRACE010.html#Land%20Dimensions" 0 400 50 H I L CNN 
+F4 "No" 0 500 50 H I L CNN "automotive"
+F5 "Switch" 0 600 50 H I L CNN "category"
+F6 "50mA" 0 700 50 H I L CNN "contact current rating"
+F7 "500mΩ" 0 800 50 H I L CNN "contact resistance"
+F8 "Electromechanical" 0 900 50 H I L CNN "device class L1"
+F9 "Switches" 0 1000 50 H I L CNN "device class L2"
+F10 "Tactile Switches" 0 1100 50 H I L CNN "device class L3"
+F11 "5000000Cycles" 0 1200 50 H I L CNN "electromechanical life"
+F12 "0.75mm" 0 1300 50 H I L CNN "height"
+F13 "Yes" 0 1400 50 H I L CNN "lead free"
+F14 "d149e0fe2bdab275" 0 1500 50 H I L CNN "library id"
+F15 "ALPS" 0 1600 50 H I L CNN "manufacturer"
+F16 "Switch Tactile N.O. SPST Flush Round Button 0.05A 12VDC 2N SMD T/R" 0 1700 50 H I L CNN "mouser description"
+F17 "688-SKRRACE010" 0 1800 50 H I L CNN "mouser part number"
+F18 "2N" 0 1900 50 H I L CNN "operating force"
+F19 "SMT_SW_TACT_7MM5_7MM0" 0 2000 50 H I L CNN "package"
+F20 "Yes" 0 2100 50 H I L CNN "rohs"
+F21 "+85°C" 0 2200 50 H I L CNN "temperature range high"
+F22 "-30°C" 0 2300 50 H I L CNN "temperature range low"
+F23 "SPST" 0 2400 50 H I L CNN "throw configuration"
+F24 "12V" 0 2500 50 H I L CNN "voltage rating DC"
+DRAW
+X 2 2 100 0 100 R 40 0 1 1 P 
+X 1 1 700 0 100 L 40 0 1 1 P 
+X 3 3 700 -200 100 L 40 0 1 1 P 
+X 4 4 100 -200 100 R 40 0 1 1 P 
+C 330 -100 20 1 1 0 N
+C 470 -100 20 1 1 0 N
+P 2 1 1 0 310 -50 490 -50 N
+P 2 1 1 0 370 -50 370 -10 N
+P 2 1 1 0 370 -10 430 -10 N
+P 2 1 1 0 430 -10 430 -40 N
+P 2 1 1 0 310 -100 200 -100 N
+P 2 1 1 0 490 -100 600 -100 N
+P 2 1 1 0 200 0 200 -200 N
+P 2 1 1 0 600 0 600 -200 N
+ENDDRAW
+ENDDEF
+#
+# End Library

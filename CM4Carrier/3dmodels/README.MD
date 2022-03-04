@@ -1,0 +1,1 @@
+https://github.com/aep/kicad/blob/master/lib/3d/cm-min.step for original CM MIN STP.
