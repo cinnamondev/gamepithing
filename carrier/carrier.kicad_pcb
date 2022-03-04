@@ -11127,7 +11127,6 @@
     (pad "S4" thru_hole oval (at 5.62 0) (size 0.95 1.9) (drill oval 0.6 1.8) (layers *.Cu) (tstamp 35f5043e-71b1-4137-943c-70216f2bd869))
   )
 
-  (gr_rect (start 241.8 64.8) (end 305.8 148.8) (layer "F.Cu") (width 0.2) (fill none) (tstamp fc0dc500-7766-4697-8e02-611d3d9d8245))
   (gr_line (start 103.5901 102.8868) (end 103.5845 102.9025) (layer "F.SilkS") (width 0.001) (tstamp 047607d6-8139-44f2-926f-80add5059f3e))
   (gr_line (start 103.6023 102.856) (end 103.596 102.8714) (layer "F.SilkS") (width 0.001) (tstamp 2a89918c-2fc2-4247-b893-d3672905cb2f))
   (gr_arc (start 155.433395 92.741809) (mid 170.594825 91.150577) (end 157.338504 98.678587) (layer "F.SilkS") (width 0.15) (tstamp 30df5791-7e3d-4c28-95a6-78658b2c1b1a))
@@ -11280,7 +11279,6 @@
   (gr_line (start 126.466966 109.029727) (end 126.712419 108.535537) (layer "User.9") (width 0.089146) (tstamp 251ee655-5e56-4c5b-880a-5f2d1add4176))
   (gr_poly
     (pts
-
       (xy 145.011484 114.172342)
       (xy 145.000573 114.607244)
       (xy 144.968192 115.036436)
