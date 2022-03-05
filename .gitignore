@@ -1,5 +1,6 @@
-./carrier/carrier-backups/*
-./carrier/carrier-pcb-*/
-./carrier/*.kicad_sch-bak
-./carrier/_autosave-*
-*.zip
+./old/carrier/carrier-backups/*
+./old/carrier/carrier-pcb-*/
+./old/carrier/*.kicad_sch-bak
+./old/carrier/_autosave-*
+adaptor/adaptor-backups/*
+CM4carrier/CM4carrier-backups/*

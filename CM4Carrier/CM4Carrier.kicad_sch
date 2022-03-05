@@ -8,14 +8,26 @@
   )
 
 
-  (sheet (at 149.225 66.04) (size 88.265 67.31) (fields_autoplaced)
+  (sheet (at 185.42 53.34) (size 58.42 45.72) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 1d948cd0-f6e4-4bae-aaaf-c0cfc5cdd7a9)
-    (property "Sheet name" "IO" (id 0) (at 149.225 65.3284 0)
+    (property "Sheet name" "IO" (id 0) (at 185.42 52.6284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "heiarchy\\io.kicad.kicad_sch" (id 1) (at 149.225 133.9346 0)
+    (property "Sheet file" "heiarchy\\io.kicad_sch" (id 1) (at 185.42 99.6446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 96.52 111.76) (size 58.42 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a75f8253-7851-4062-bd61-8fb400fa95f7)
+    (property "Sheet name" "Battery" (id 0) (at 96.52 111.0484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "heiarchy\\battery.kicad_sch" (id 1) (at 96.52 150.4446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -23,6 +35,7 @@
   (sheet_instances
     (path "/" (page "1"))
     (path "/1d948cd0-f6e4-4bae-aaaf-c0cfc5cdd7a9" (page "2"))
+    (path "/a75f8253-7851-4062-bd61-8fb400fa95f7" (page "3"))
   )
 
   (symbol_instances
@@ -31,6 +44,9 @@
     )
     (path "/1d948cd0-f6e4-4bae-aaaf-c0cfc5cdd7a9/fd0f2aa9-5fff-479f-bd7e-313f736a9e67"
       (reference "Module?") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    )
+    (path "/a75f8253-7851-4062-bd61-8fb400fa95f7/2a3e3937-f1c9-4371-a1ef-6f37a588e608"
+      (reference "U?") (unit 1) (value "MAX77751") (footprint "")
     )
   )
 )

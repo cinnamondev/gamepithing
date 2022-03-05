@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -112,8 +118,16 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.508
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -333,7 +347,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CM4Carrier.kicad_pro",
+    "filename": "adaptor.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -367,8 +381,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "adaptor.step",
+      "vrml": "adaptor.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -412,16 +426,8 @@
   },
   "sheets": [
     [
-      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      "c869e7c3-81aa-4c42-aca0-b354f08eb2b1",
       ""
-    ],
-    [
-      "1d948cd0-f6e4-4bae-aaaf-c0cfc5cdd7a9",
-      "IO"
-    ],
-    [
-      "a75f8253-7851-4062-bd61-8fb400fa95f7",
-      "Battery"
     ]
   ],
   "text_variables": {}
