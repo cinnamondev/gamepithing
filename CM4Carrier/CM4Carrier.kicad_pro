@@ -422,6 +422,10 @@
     [
       "a75f8253-7851-4062-bd61-8fb400fa95f7",
       "Battery"
+    ],
+    [
+      "fbd4ebba-c181-4efc-9928-2457cd7bdbdb",
+      "Buttons"
     ]
   ],
   "text_variables": {}
