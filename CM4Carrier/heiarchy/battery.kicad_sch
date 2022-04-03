@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (rev "indev.")
+  )
+
   (lib_symbols
     (symbol "CM4IO:MAX77751" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 3.81 0)
