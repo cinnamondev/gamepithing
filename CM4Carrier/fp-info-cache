@@ -1,4 +1,4 @@
-20197851212871574
+20199500320030459
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2435,6 +2435,13 @@ Semi-shielded Power Inductor
 0
 2
 2
+CM4IO
+MIC2877-AYFT-TR
+
+
+0
+8
+8
 CM4IO
 MOLEX_USB_67298-4090
 
