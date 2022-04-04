@@ -330,7 +330,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "CM4IO"
+    ]
   },
   "meta": {
     "filename": "CM4Carrier.kicad_pro",
