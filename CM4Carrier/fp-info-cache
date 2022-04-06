@@ -1,4 +1,4 @@
-20199500320030459
+20201149570990545
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2421,6 +2421,13 @@ connector Hirose  top entry
 0
 24
 23
+CM4IO
+IC_MAX77751FEFG+
+
+
+0
+19
+19
 CM4IO
 JSTXHP
 
