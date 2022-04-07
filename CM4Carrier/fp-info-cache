@@ -1,4 +1,4 @@
-20201149570990545
+20206097550867629
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2519,6 +2519,27 @@ Switch
 0
 3
 3
+CM4IO
+SW_PTS526_SMG15_SMTR2_LFS
+
+
+0
+6
+6
+CM4IO
+TE_1-84952-5
+
+
+0
+17
+17
+CM4IO
+TE_1-1734248-5
+
+
+0
+30
+30
 CM4IO
 TRJG0926HENL
 https://p.globalsources.com/IMAGES/PDT/SPEC/690/K1160305690.pdf
