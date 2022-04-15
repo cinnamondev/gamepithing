@@ -3,4 +3,5 @@
 ./old/carrier/*.kicad_sch-bak
 ./old/carrier/_autosave-*
 adaptor/adaptor-backups/*
-[CM4Carrier-]*.zip
+*.zip
+*.kicad_sch-bak
