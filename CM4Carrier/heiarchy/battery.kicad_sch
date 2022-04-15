@@ -678,7 +678,7 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Thermistor_NTC_0_1"
-        (arc (start -3.048 2.159) (mid -3.0495 2.3143) (end -3.175 2.413)
+        (arc (start -3.048 2.159) (mid -3.0505 2.3165) (end -3.175 2.413)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -694,7 +694,7 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start -2.794 2.54) (mid -2.4393 2.5587) (end -2.159 2.794)
+        (arc (start -2.794 2.54) (mid -2.434 2.5608) (end -2.159 2.794)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )

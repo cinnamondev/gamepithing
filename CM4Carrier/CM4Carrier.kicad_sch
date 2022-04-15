@@ -382,6 +382,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 19f1715c-e94b-4a05-bea9-2567c44bae0c)
   )
+  (text "TBF: HEADPHONE JACK / SOUND" (at 33.02 39.37 0)
+    (effects (font (size 5.08 5.08)) (justify left bottom))
+    (uuid 8454cb6b-0849-4c10-be37-c442a713f93e)
+  )
   (text "Connections:\nSD Card\nButtons (Power,A,B,X,Y,Start,Sel)\nJoystick (digital)\n"
     (at 106.68 120.65 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
