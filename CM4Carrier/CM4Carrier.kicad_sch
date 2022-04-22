@@ -1030,6 +1030,12 @@
     (path "/1d948cd0-f6e4-4bae-aaaf-c0cfc5cdd7a9/e87d6291-d889-4bca-99b4-4ea1e6c6bd38"
       (reference "D4") (unit 2) (value "BAV99S") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
+    (path "/cc688cd2-08ad-4256-bba2-7e9697424f84/b88bdc59-2f20-4aae-ba24-1f1603f336de"
+      (reference "F1") (unit 1) (value "Polyfuse") (footprint "Fuse:Fuse_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
+    )
+    (path "/cc688cd2-08ad-4256-bba2-7e9697424f84/d700fab8-54ff-4598-b1ed-2da6ebf65439"
+      (reference "F2") (unit 1) (value "Polyfuse") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+    )
     (path "/1d948cd0-f6e4-4bae-aaaf-c0cfc5cdd7a9/6010d012-214c-4430-877c-5992786f91c0"
       (reference "J1") (unit 1) (value "Micro_SD_Card") (footprint "CM4IO:GCT_MEM2067-02-180-00-A_REVB")
     )
