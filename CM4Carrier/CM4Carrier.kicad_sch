@@ -1362,12 +1362,6 @@
     (path "/fbd4ebba-c181-4efc-9928-2457cd7bdbdb/4268ab6b-c39b-44b3-8e33-fb925e0c8be2"
       (reference "TP19") (unit 1) (value "X") (footprint "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm")
     )
-    (path "/fbd4ebba-c181-4efc-9928-2457cd7bdbdb/36d84eae-d0c3-429e-813d-9d311f9d374f"
-      (reference "TP20") (unit 1) (value "U/D") (footprint "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm")
-    )
-    (path "/fbd4ebba-c181-4efc-9928-2457cd7bdbdb/ae2f379a-724a-434d-856e-6ae7ce8b032e"
-      (reference "TP21") (unit 1) (value "L/R") (footprint "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm")
-    )
     (path "/fbd4ebba-c181-4efc-9928-2457cd7bdbdb/5cd7f234-98b3-4536-a488-98f589f424ab"
       (reference "TP22") (unit 1) (value "B") (footprint "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm")
     )
