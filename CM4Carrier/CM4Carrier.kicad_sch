@@ -502,6 +502,18 @@
     (uuid fa2e0be3-d909-43ce-b41b-a1127337b389)
   )
 
+  (sheet (at 43.18 151.13) (size 40.64 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1b340de7-7930-4457-8235-56ebe4956894)
+    (property "Sheet name" "Untitled Sheet" (id 0) (at 43.18 150.4184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "heiarchy\\breakoff-adaptor.kicad_sch" (id 1) (at 43.18 179.6546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 92.71 99.06) (size 58.42 38.1) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -792,6 +804,7 @@
     (path "/a75f8253-7851-4062-bd61-8fb400fa95f7" (page "3"))
     (path "/fbd4ebba-c181-4efc-9928-2457cd7bdbdb" (page "4"))
     (path "/cc688cd2-08ad-4256-bba2-7e9697424f84" (page "5"))
+    (path "/1b340de7-7930-4457-8235-56ebe4956894" (page "6"))
   )
 
   (symbol_instances
@@ -1094,6 +1107,12 @@
     )
     (path "/1d948cd0-f6e4-4bae-aaaf-c0cfc5cdd7a9/38ac0130-dea2-4904-9c77-6b6c807f794f"
       (reference "J6") (unit 1) (value "AudioJack3_Dual_Ground_Switch") (footprint "Connector_Audio:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal")
+    )
+    (path "/1b340de7-7930-4457-8235-56ebe4956894/3a1c76dc-9187-4d7f-ba57-cf3340b12568"
+      (reference "J7") (unit 1) (value "1-84952-5") (footprint "CM4IO:TE_1-84952-5")
+    )
+    (path "/1b340de7-7930-4457-8235-56ebe4956894/5512f786-2f6a-46e4-8be4-96f2255d32ae"
+      (reference "J8") (unit 1) (value "1-84952-5") (footprint "CM4IO:TE_1-84952-5")
     )
     (path "/a75f8253-7851-4062-bd61-8fb400fa95f7/22500fa5-ec3f-43b8-b073-b8a485720681"
       (reference "L1") (unit 1) (value "0.47u") (footprint "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder")
