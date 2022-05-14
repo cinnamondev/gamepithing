@@ -1,2 +1,7 @@
-carrier/carrier-backups/*
+./old/carrier/carrier-backups/*
+./old/carrier/carrier-pcb-*/
+./old/carrier/*.kicad_sch-bak
+./old/carrier/_autosave-*
+adaptor/adaptor-backups/*
 *.zip
+*.kicad_sch-bak

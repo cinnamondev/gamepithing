@@ -1,8 +1,11 @@
-# Raspberry Pi GBASP
+# Pie Girl (Because original names are lame)
 
-PCB carrier for a compute module 4 to go in a Gameboy Advance SP.
+CM4 Carrier Board for the GBASP (with modifications)
 
-(Images soon.)
+# Images
+
+
+(Images soon)
 
 ## Loading this project
 
@@ -12,19 +15,19 @@ Clone this project via git
 You need KiCad 6 / KiCad Nightly to open this project
 [KiCad Download](https://www.kicad.org/download/)
 
-## Build it
+## Build it!
 
-Follow part list and get soldering
-(More info here later, not complete)
+Gerber files will be in the releases once this has been properly done- for a BOM read the Wiki (TBD)
 
+## TODO LIST
 
-## TODO
+1. Comp folder cleanup
+2. PCB
+3. Battery charging circuitry
+4. Testing
+5. ???????????? probably something here...
+6. something software?
 
-- PCB & Testing
-- Images
-- Software part
-
-[Part list](PARTS.MD)
 
 ## Licensing
 

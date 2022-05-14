@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/symb/CM4IO.kicad_sym")(options "")(descr ""))
+  (lib (name "84952-5")(type "KiCad")(uri "${KIPRJMOD}/symb/1-84952-5.kicad_sym")(options "")(descr ""))
+  (lib (name "max77751")(type "KiCad")(uri "${KIPRJMOD}/symb/MAX77751CEFG_.kicad_sym")(options "")(descr ""))
+)
