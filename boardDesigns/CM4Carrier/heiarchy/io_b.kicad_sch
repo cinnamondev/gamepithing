@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (date "2022-04-23")
-    (rev "Rev1-Pre")
+    (date "2022-05-14")
+    (rev "Rev1")
     (comment 1 "https://github.com/cinnamondev/gamepithing")
   )
 
