@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "(6.0.0)"
     },
-    "CreationDate": "2022-05-02T00:50:15+01:00"
+    "CreationDate": "2022-06-01T15:47:08+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "CM4Carrier",
       "GUID": "434d3443-6172-4726-9965-722e6b696361",
-      "Revision": "indev"
+      "Revision": "Rev1-Untested"
     },
     "Size": {
       "X": 96.1,
-      "Y": 99.935
+      "Y": 83.475
     },
     "LayerNumber": 4,
     "BoardThickness": 4.69,
@@ -37,8 +37,8 @@
       "PadToTrack": 0.0,
       "TrackToTrack": 0.1524,
       "MinLineWidth": 0.2,
-      "TrackToRegion": 0.508,
-      "RegionToRegion": 0.508
+      "TrackToRegion": 0.1524,
+      "RegionToRegion": 0.1524
     }
   ],
   "FilesAttributes": [
