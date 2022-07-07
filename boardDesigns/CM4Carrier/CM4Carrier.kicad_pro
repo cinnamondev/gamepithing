@@ -378,52 +378,6 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.1524,
-        "diff_pair_gap": 0.1524,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.508,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "DSI",
-        "nets": [
-          "/IO B/DSI0_CN",
-          "/IO B/DSI0_CP",
-          "/IO B/DSI0_L0_DN1",
-          "/IO B/DSI0_L0_DP1",
-          "/IO B/DSI0_L1_DN1",
-          "/IO B/DSI0_L1_DP1"
-        ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.1524,
-        "diff_pair_gap": 0.1524,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.762,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "USB",
-        "nets": [
-          "/IO B/D+",
-          "/IO B/D-"
-        ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -463,7 +417,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
