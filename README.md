@@ -1,32 +1,27 @@
-# Pie Girl (Because original names are lame)
+# Raspberry Pi Handheld (Leviathan)
 
-CM4 Carrier Board for the GBASP (with modifications)
-
-# Images
-
-
-(Images soon)
+[Visit the project page!](https://itscinnamon.me/projects/leviathan)
 
 ## Loading this project
 
 Clone this project via git
 `git clone https://github.com/cinnamondev/gamepithing`
 
-You need KiCad 6 / KiCad Nightly to open this project
+You need Kicad 6+ to load this project.
 [KiCad Download](https://www.kicad.org/download/)
 
 ## Build it!
 
 Gerber files will be in the releases once this has been properly done- for a BOM read the Wiki (TBD)
 
-## TODO LIST
+## To-do list:
+- Snip...
 
-1. Comp folder cleanup
-2. PCB
-3. Battery charging circuitry
-4. Testing
-5. ???????????? probably something here...
-6. something software?
+- [ ] Repo clean up
+- [ ] CM4 Backorder arrival
+- [ ] Extra revisions (general improvements, no additional features)
+- [ ] Box/Casing final revision printed (sliding and retention mechanism perfected)
+- [ ] Built boards!
 
 
 ## Licensing
