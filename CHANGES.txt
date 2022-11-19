@@ -1,0 +1,11 @@
+Under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal License, licensees
+should make brief note of any changes in this document. Note that information about the
+design can only be added and not removed from this document. Any changes should be dated,
+for example (derived from the CERN OHL V2 User Guide):
+'26 April 2020: (GH Username, PR#0 if required, Source if required) AC/DC power converter circuit removed as AC input no longer necessary'
+
+If you are not sure about any of this, I strongly reccomend that you take the time to read the LICENSE and CONTRIBUTING documents provided with this document (which should accompany the Source.)
+Happy hacking!
+
+Changes from 18.11.2022 are from the ORIGINAL SOURCE: https://www.github.com/cinnamondev/calculatorthing
+18 November 2022: (Cinnamondev) Beginning of this document
