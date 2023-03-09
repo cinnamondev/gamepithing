@@ -2,6 +2,13 @@
 
 [Visit the project page!](https://itscinnamon.me/projects/leviathan)
 
+# UPDATE 09/03/2023
+
+This project will likely never be tested or finished now. It is getting increasingly difficult to find a reasonable source of a CM4 to begin and my previously backordered CM4 has since been cancelled without notice.
+
+**Please do not try to make this board, it will probably break something!**
+
+
 ## Loading this project
 
 Clone this project via git
